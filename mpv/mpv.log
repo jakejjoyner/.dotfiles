@@ -1,0 +1,2064 @@
+[   0.000][d][global] user path: 'mpv.log' -> 'mpv.log'
+[   0.001][v][cplayer] mpv 0.39.0 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.001][v][cplayer] libplacebo version: v7.349.0
+[   0.001][v][cplayer] FFmpeg version: 7.1
+[   0.001][v][cplayer] FFmpeg library versions:
+[   0.001][v][cplayer]    libavcodec      61.19.100
+[   0.001][v][cplayer]    libavdevice     61.3.100
+[   0.001][v][cplayer]    libavfilter     10.4.100
+[   0.001][v][cplayer]    libavformat     61.7.100
+[   0.001][v][cplayer]    libavutil       59.39.100
+[   0.001][v][cplayer]    libswresample   5.3.100
+[   0.001][v][cplayer]    libswscale      8.3.100
+[   0.001][v][cplayer] Configuration: -Dbuild-date=false -Dhtml-build=enabled -Djavascript=enabled -Dlibmpv=true -Dlua=luajit -Dlibarchive=enabled -Duchardet=enabled -Dvulkan=enabled -Degl=enabled -Dwayland=enabled -Dx11=enabled -Dprefix=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2 -Ddatadir=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2/share/mpv -Dlibdir=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2/lib -Dmandir=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2/share/man -Dsysconfdir=/home/linuxbrew/.linuxbrew/etc/mpv -Dbuildtype=release -Dwrap_mode=nofallback
+[   0.001][v][cplayer] List of enabled features: alsa cplugins dmabuf-interop-gl dmabuf-wayland drm dvbin egl egl-drm egl-wayland egl-x11 ffmpeg gbm gl glibc-thread-name glob glob-posix gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs luajit memfd-create memrchr posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vector vk-khr-display vt.h vulkan wayland wayland-protocols-1-32 x11 xv zimg zimg-st428 zlib
+[   0.001][v][cplayer] Command line options: '--log-file=mpv.log' '/home/jakejoyner/Downloads/Dune Part Two (2024) [1080p] [WEBRip] [YTS.MX]/Dune.Part.Two.2024.1080p.WEBRip.x264.AAC-[YTS.MX].mp4'
+[   0.001][v][cplayer] mpv 0.39.0 Copyright © 2000-2024 mpv/MPlayer/mplayer2 projects
+[   0.001][v][cplayer] libplacebo version: v7.349.0
+[   0.001][v][cplayer] FFmpeg version: 7.1
+[   0.001][v][cplayer] FFmpeg library versions:
+[   0.001][v][cplayer]    libavcodec      61.19.100
+[   0.001][v][cplayer]    libavdevice     61.3.100
+[   0.001][v][cplayer]    libavfilter     10.4.100
+[   0.001][v][cplayer]    libavformat     61.7.100
+[   0.001][v][cplayer]    libavutil       59.39.100
+[   0.001][v][cplayer]    libswresample   5.3.100
+[   0.001][v][cplayer]    libswscale      8.3.100
+[   0.001][v][cplayer] Configuration: -Dbuild-date=false -Dhtml-build=enabled -Djavascript=enabled -Dlibmpv=true -Dlua=luajit -Dlibarchive=enabled -Duchardet=enabled -Dvulkan=enabled -Degl=enabled -Dwayland=enabled -Dx11=enabled -Dprefix=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2 -Ddatadir=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2/share/mpv -Dlibdir=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2/lib -Dmandir=/home/linuxbrew/.linuxbrew/Cellar/mpv/0.39.0_2/share/man -Dsysconfdir=/home/linuxbrew/.linuxbrew/etc/mpv -Dbuildtype=release -Dwrap_mode=nofallback
+[   0.001][v][cplayer] List of enabled features: alsa cplugins dmabuf-interop-gl dmabuf-wayland drm dvbin egl egl-drm egl-wayland egl-x11 ffmpeg gbm gl glibc-thread-name glob glob-posix gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs luajit memfd-create memrchr posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vector vk-khr-display vt.h vulkan wayland wayland-protocols-1-32 x11 xv zimg zimg-st428 zlib
+[   0.001][d][global] home path: '' -> '/home/jakejoyner/.config/mpv'
+[   0.001][d][global] user path: '~~home/' -> '/home/jakejoyner/.config/mpv'
+[   0.001][d][global] user path: '~~old_home/' -> '/home/jakejoyner/.mpv'
+[   0.001][d][global] config path: 'encoding-profiles.conf' -/-> '/home/jakejoyner/.config/mpv/encoding-profiles.conf'
+[   0.001][d][global] config path: 'encoding-profiles.conf' -/-> '/home/jakejoyner/.mpv/encoding-profiles.conf'
+[   0.001][d][global] config path: 'encoding-profiles.conf' -> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/encoding-profiles.conf'
+[   0.001][v][cplayer] Reading config file /home/linuxbrew/.linuxbrew/etc/mpv/mpv/encoding-profiles.conf
+[   0.001][v][bdmv/bluray] Opening /home/linuxbrew/.linuxbrew/etc/mpv/mpv/encoding-profiles.conf
+[   0.001][v][file] Opening /home/linuxbrew/.linuxbrew/etc/mpv/mpv/encoding-profiles.conf
+[   0.001][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.001][d][file] Stream opened successfully.
+[   0.001][v][cplayer] Applying profile 'default'...
+[   0.001][d][global] config path: 'mpv.conf' -> '/home/jakejoyner/.config/mpv/mpv.conf'
+[   0.001][d][global] config path: 'config' -/-> '/home/jakejoyner/.config/mpv/config'
+[   0.001][d][global] config path: 'mpv.conf' -/-> '/home/jakejoyner/.mpv/mpv.conf'
+[   0.001][d][global] config path: 'config' -/-> '/home/jakejoyner/.mpv/config'
+[   0.001][d][global] config path: 'mpv.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/mpv.conf'
+[   0.001][d][global] config path: 'config' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/config'
+[   0.001][v][cplayer] Reading config file /home/jakejoyner/.config/mpv/mpv.conf
+[   0.001][v][bdmv/bluray] Opening /home/jakejoyner/.config/mpv/mpv.conf
+[   0.001][v][file] Opening /home/jakejoyner/.config/mpv/mpv.conf
+[   0.001][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.001][d][file] Stream opened successfully.
+[   0.001][v][cplayer] Applying profile 'default'...
+[   0.001][v][cplayer] Setting option 'vo' = 'gpu' (flags = 4)
+[   0.001][v][cplayer] Setting option 'gpu-api' = 'vulkan' (flags = 4)
+[   0.001][v][cplayer] Setting option 'hwdec' = 'auto-safe' (flags = 4)
+[   0.001][v][cplayer] Setting option 'hdr-compute-peak' = 'yes' (flags = 4)
+[   0.001][v][cplayer] Setting option 'tone-mapping' = 'hable' (flags = 4)
+[   0.001][v][cplayer] Setting option 'video-sync' = 'display-resample' (flags = 4)
+[   0.001][v][cplayer] Setting option 'interpolation' = 'yes' (flags = 4)
+[   0.001][v][cplayer] Setting option 'tscale' = 'oversample' (flags = 4)
+[   0.001][v][cplayer] Setting option 'audio-channels' = 'auto' (flags = 4)
+[   0.001][v][cplayer] Setting option 'save-position-on-quit' = 'yes' (flags = 4)
+[   0.001][v][cplayer] Setting option 'vf' = 'vapoursynth="/home/jakejoyner/mpv/motion_interpolation.vpy":buffered-frames=4:concurrent-frames=32' (flags = 4)
+[   0.001][v][cplayer] Setting option 'log-file' = 'mpv.log' (flags = 8)
+[   0.002][d][global] config path: 'input.conf' -/-> '/home/jakejoyner/.config/mpv/input.conf'
+[   0.002][d][global] config path: 'input.conf' -/-> '/home/jakejoyner/.mpv/input.conf'
+[   0.002][d][global] config path: 'input.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/input.conf'
+[   0.002][d][global] user path: 'mpv.log' -> 'mpv.log'
+[   0.002][d][osc] Loading lua script @osc.lua...
+[   0.002][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.002][d][stats] Loading lua script @stats.lua...
+[   0.002][d][console] Loading lua script @console.lua...
+[   0.002][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.002][d][ytdl_hook] loading mp.defaults
+[   0.002][d][osc] loading mp.defaults
+[   0.002][d][select] Loading lua script @select.lua...
+[   0.002][d][stats] loading mp.defaults
+[   0.002][d][console] loading mp.defaults
+[   0.003][d][global] config path: 'scripts' -/-> '/home/jakejoyner/.config/mpv/scripts'
+[   0.003][d][global] config path: 'scripts' -/-> '/home/jakejoyner/.mpv/scripts'
+[   0.003][d][global] config path: 'scripts' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/scripts'
+[   0.003][v][cplayer] Waiting for scripts...
+[   0.003][d][auto_profiles] loading mp.defaults
+[   0.003][d][select] loading mp.defaults
+[   0.003][d][console] loading @console.lua
+[   0.003][d][osc] loading @osc.lua
+[   0.003][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.003][d][stats] loading @stats.lua
+[   0.003][d][auto_profiles] loading @auto_profiles.lua
+[   0.003][d][select] loading @select.lua
+[   0.003][d][cplayer] Run command: define-section, flags=64, args=[name="input_select", contents="", flags="default"]
+[   0.003][d][cplayer] Run command: enable-section, flags=64, args=[name="input_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.003][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_select", contents="", flags="force"]
+[   0.003][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.003][d][ytdl_hook] reading options for ytdl_hook
+[   0.003][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/jakejoyner/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.003][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/jakejoyner/.mpv/script-opts/ytdl_hook.conf'
+[   0.003][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/script-opts/ytdl_hook.conf'
+[   0.003][d][ytdl_hook] script-opts/ytdl_hook.conf not found.
+[   0.003][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/jakejoyner/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.003][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/jakejoyner/.mpv/lua-settings/ytdl_hook.conf'
+[   0.003][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/lua-settings/ytdl_hook.conf'
+[   0.003][d][ytdl_hook] lua-settings/ytdl_hook.conf not found.
+[   0.004][d][console] reading options for console
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/jakejoyner/.config/mpv/script-opts/console.conf'
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/jakejoyner/.mpv/script-opts/console.conf'
+[   0.004][d][global] config path: 'script-opts/console.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/script-opts/console.conf'
+[   0.004][d][console] script-opts/console.conf not found.
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/jakejoyner/.config/mpv/lua-settings/console.conf'
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/jakejoyner/.mpv/lua-settings/console.conf'
+[   0.004][d][global] config path: 'lua-settings/console.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/lua-settings/console.conf'
+[   0.004][d][console] lua-settings/console.conf not found.
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.004][d][stats] reading options for stats
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][global] config path: 'script-opts/stats.conf' -/-> '/home/jakejoyner/.config/mpv/script-opts/stats.conf'
+[   0.004][d][global] config path: 'script-opts/stats.conf' -/-> '/home/jakejoyner/.mpv/script-opts/stats.conf'
+[   0.004][d][global] config path: 'script-opts/stats.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/script-opts/stats.conf'
+[   0.004][d][stats] script-opts/stats.conf not found.
+[   0.004][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/jakejoyner/.config/mpv/lua-settings/stats.conf'
+[   0.004][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/jakejoyner/.mpv/lua-settings/stats.conf'
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.004][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/lua-settings/stats.conf'
+[   0.004][d][stats] lua-settings/stats.conf not found.
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nshift+mbtn_left script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nmbtn_mid script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.005][d][osc] reading options for osc
+[   0.005][d][global] config path: 'script-opts/osc.conf' -/-> '/home/jakejoyner/.config/mpv/script-opts/osc.conf'
+[   0.005][d][global] config path: 'script-opts/osc.conf' -/-> '/home/jakejoyner/.mpv/script-opts/osc.conf'
+[   0.005][d][global] config path: 'script-opts/osc.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/script-opts/osc.conf'
+[   0.005][d][osc] script-opts/osc.conf not found.
+[   0.005][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/jakejoyner/.config/mpv/lua-settings/osc.conf'
+[   0.005][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/jakejoyner/.mpv/lua-settings/osc.conf'
+[   0.005][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/lua-settings/osc.conf'
+[   0.005][d][osc] lua-settings/osc.conf not found.
+[   0.005][v][cplayer] Set property: user-data/osc/visibility="auto" -> 1
+[   0.005][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.005][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.005][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   0.005][v][cplayer] Done loading scripts.
+[   0.005][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.005][v][cplayer] Running hook: auto_profiles/on_before_start_file
+[   0.005][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.005][i][cplayer] Resuming playback. This behavior can be disabled with --no-resume-playback.
+[   0.005][v][cplayer] Loading config '/home/jakejoyner/.local/state/mpv/watch_later/3633698E7DF23A143DA368EEADA2FE88'
+[   0.005][v][cplayer] Reading config file /home/jakejoyner/.local/state/mpv/watch_later/3633698E7DF23A143DA368EEADA2FE88
+[   0.005][v][bdmv/bluray] Opening /home/jakejoyner/.local/state/mpv/watch_later/3633698E7DF23A143DA368EEADA2FE88
+[   0.005][v][file] Opening /home/jakejoyner/.local/state/mpv/watch_later/3633698E7DF23A143DA368EEADA2FE88
+[   0.005][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.005][d][file] Stream opened successfully.
+[   0.005][v][cplayer] Applying profile 'default'...
+[   0.005][v][cplayer] Setting option 'start' = '20.520500' (flags = 36)
+[   0.005][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.005][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   0.005][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.005][v][ytdl_hook] playlist hook
+[   0.005][v][cplayer] Running hook: auto_profiles/on_load
+[   0.005][d][osc] osc_init
+[   0.005][v][bdmv/bluray] Opening /home/jakejoyner/Downloads/Dune Part Two (2024) [1080p] [WEBRip] [YTS.MX]/Dune.Part.Two.2024.1080p.WEBRip.x264.AAC-[YTS.MX].mp4
+[   0.005][v][file] Opening /home/jakejoyner/Downloads/Dune Part Two (2024) [1080p] [WEBRip] [YTS.MX]/Dune.Part.Two.2024.1080p.WEBRip.x264.AAC-[YTS.MX].mp4
+[   0.005][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.005][d][file] Stream opened successfully.
+[   0.005][v][demux] Trying demuxers for level=normal.
+[   0.005][d][demux] Trying demuxer: directory (force-level: normal)
+[   0.006][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   0.006][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.006][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.006][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.006][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.006][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.006][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.006][d][demux] Trying demuxer: libarchive (force-level: normal)
+[   0.006][d][global] config path: 'fonts' -/-> '/home/jakejoyner/.config/mpv/fonts'
+[   0.006][d][global] config path: 'fonts' -/-> '/home/jakejoyner/.mpv/fonts'
+[   0.006][d][global] config path: 'fonts' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/fonts'
+[   0.006][d][osd/libass] ASS library version: 0x1703000 (runtime 0x1703000)
+[   0.006][v][osd/libass] libass API version: 0x1703000
+[   0.006][v][osd/libass] libass source: tarball: 0.17.3
+[   0.006][d][demux] Trying demuxer: lavf (force-level: normal)
+[   0.006][v][osd/libass] Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 10.3.0 (COMPLEX)
+[   0.006][d][global] config path: 'subfont.ttf' -/-> '/home/jakejoyner/.config/mpv/subfont.ttf'
+[   0.006][d][global] config path: 'subfont.ttf' -/-> '/home/jakejoyner/.mpv/subfont.ttf'
+[   0.006][d][global] config path: 'subfont.ttf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/subfont.ttf'
+[   0.006][d][global] config path: 'fonts.conf' -/-> '/home/jakejoyner/.config/mpv/fonts.conf'
+[   0.006][d][global] config path: 'fonts.conf' -/-> '/home/jakejoyner/.mpv/fonts.conf'
+[   0.006][d][global] config path: 'fonts.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/fonts.conf'
+[   0.006][v][osd/libass] Setting up fonts...
+[   0.010][v][lavf] Found 'mov,mp4,m4a,3gp,3g2,mj2' at score=100 size=2048.
+[   0.012][v][osd/libass] Using font provider fontconfig
+[   0.012][v][osd/libass] Done.
+[   0.012][d][osc] osc_init
+[   0.012][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   0.012][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.012][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.012][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.012][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.077][v][demux] Detected file format: mov,mp4,m4a,3gp,3g2,mj2 (libavformat)
+[   0.077][v][cplayer] Opening done: /home/jakejoyner/Downloads/Dune Part Two (2024) [1080p] [WEBRip] [YTS.MX]/Dune.Part.Two.2024.1080p.WEBRip.x264.AAC-[YTS.MX].mp4
+[   0.077][v][find_files] Loading external files in /home/jakejoyner/Downloads/Dune Part Two (2024) [1080p] [WEBRip] [YTS.MX]/
+[   0.077][d][global] config path: 'sub' -/-> '/home/jakejoyner/.config/mpv/sub'
+[   0.077][d][global] config path: 'sub' -/-> '/home/jakejoyner/.mpv/sub'
+[   0.077][d][global] config path: 'sub' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/sub'
+[   0.077][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.077][v][cplayer] Running hook: auto_profiles/on_preloaded
+[   0.077][d][osc] osc_init
+[   0.077][v][lavf] select track 0
+[   0.077][v][lavf] select track 1
+[   0.077][i][cplayer] ● Video  --vid=1  (h264 1920x802 23.976 fps) [default]
+[   0.077][i][cplayer] ● Audio  --aid=1  (aac 2ch 48000 Hz 129 kbps) [default]
+[   0.077][v][vo/gpu] Probing for best GPU context.
+[   0.077][v][vo/gpu/vulkan] Initializing GPU context 'waylandvk'
+[   0.077][v][vo/gpu/libplacebo] Initialized libplacebo v7.349.0 (API v349)
+[   0.077][d][vo/gpu/libplacebo] Available instance version: 1.4.309
+[   0.078][d][vo/gpu/libplacebo] Spent 0.683 ms enumerating instance layers
+[   0.078][d][vo/gpu/libplacebo] Available layers:
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_fossilize_64 (v1.3.207)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_overlay_32 (v1.3.207)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_fossilize_32 (v1.3.207)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_overlay_64 (v1.3.207)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_NV_optimus (v1.3.289)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_MESA_device_select (v1.3.211)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_INTEL_nullhw (v1.1.73)
+[   0.078][d][vo/gpu/libplacebo]     VK_LAYER_MESA_overlay (v1.3.211)
+[   0.137][v][vo/gpu/libplacebo] Spent 59.199 ms enumerating instance extensions
+[   0.137][d][vo/gpu/libplacebo] Available instance extensions:
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_device_group_creation
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_external_fence_capabilities
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_external_memory_capabilities
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_external_semaphore_capabilities
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_get_physical_device_properties2
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_get_surface_capabilities2
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_surface
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_surface_protected_capabilities
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_wayland_surface
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_xcb_surface
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_xlib_surface
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_debug_report
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_debug_utils
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_display
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_get_display_properties2
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_acquire_drm_display
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_acquire_xlib_display
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_direct_mode_display
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_display_surface_counter
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_swapchain_colorspace
+[   0.137][d][vo/gpu/libplacebo]     VK_EXT_surface_maintenance1
+[   0.137][d][vo/gpu/libplacebo]     VK_NV_display_stereo
+[   0.137][d][vo/gpu/libplacebo]     VK_KHR_portability_enumeration
+[   0.137][d][vo/gpu/libplacebo]     VK_LUNARG_direct_driver_loading
+[   0.137][v][vo/gpu/libplacebo] Creating vulkan instance with extensions:
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_get_physical_device_properties2
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_surface
+[   0.137][v][vo/gpu/libplacebo]     VK_EXT_swapchain_colorspace
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_external_memory_capabilities
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_external_semaphore_capabilities
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_get_surface_capabilities2
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_portability_enumeration
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_surface
+[   0.137][v][vo/gpu/libplacebo]     VK_KHR_wayland_surface
+[   0.161][v][vo/gpu/libplacebo] Spent 23.763 ms creating vulkan instance
+[   0.165][v][vo/gpu/vulkan] Initializing GPU context 'x11vk'
+[   0.165][v][vo/gpu/libplacebo] Initialized libplacebo v7.349.0 (API v349)
+[   0.165][d][vo/gpu/libplacebo] Available instance version: 1.4.309
+[   0.166][d][vo/gpu/libplacebo] Spent 0.407 ms enumerating instance layers
+[   0.166][d][vo/gpu/libplacebo] Available layers:
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_fossilize_64 (v1.3.207)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_overlay_32 (v1.3.207)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_fossilize_32 (v1.3.207)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_VALVE_steam_overlay_64 (v1.3.207)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_NV_optimus (v1.3.289)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_MESA_device_select (v1.3.211)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_INTEL_nullhw (v1.1.73)
+[   0.166][d][vo/gpu/libplacebo]     VK_LAYER_MESA_overlay (v1.3.211)
+[   0.204][v][vo/gpu/libplacebo] Spent 37.638 ms enumerating instance extensions
+[   0.204][d][vo/gpu/libplacebo] Available instance extensions:
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_device_group_creation
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_external_fence_capabilities
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_external_memory_capabilities
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_external_semaphore_capabilities
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_get_physical_device_properties2
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_get_surface_capabilities2
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_surface
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_surface_protected_capabilities
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_wayland_surface
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_xcb_surface
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_xlib_surface
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_debug_report
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_debug_utils
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_display
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_get_display_properties2
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_acquire_drm_display
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_acquire_xlib_display
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_direct_mode_display
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_display_surface_counter
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_swapchain_colorspace
+[   0.204][d][vo/gpu/libplacebo]     VK_EXT_surface_maintenance1
+[   0.204][d][vo/gpu/libplacebo]     VK_NV_display_stereo
+[   0.204][d][vo/gpu/libplacebo]     VK_KHR_portability_enumeration
+[   0.204][d][vo/gpu/libplacebo]     VK_LUNARG_direct_driver_loading
+[   0.204][v][vo/gpu/libplacebo] Creating vulkan instance with extensions:
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_get_physical_device_properties2
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_surface
+[   0.204][v][vo/gpu/libplacebo]     VK_EXT_swapchain_colorspace
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_external_memory_capabilities
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_external_semaphore_capabilities
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_get_surface_capabilities2
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_portability_enumeration
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_surface
+[   0.204][v][vo/gpu/libplacebo]     VK_KHR_xlib_surface
+[   0.219][v][vo/gpu/libplacebo] Spent 15.922 ms creating vulkan instance
+[   0.219][v][vo/gpu/x11] X11 opening display: :1
+[   0.221][d][vo/gpu/x11] X11 running at 3440x1440 (":1" => local display)
+[   0.221][d][vo/gpu/x11] Detected wm supports NetWM.
+[   0.221][d][vo/gpu/x11] Detected wm supports STICKY state.
+[   0.221][d][vo/gpu/x11] Detected wm supports FULLSCREEN state.
+[   0.221][v][vo/gpu/x11] Display 0 (DP-0): [0, 0, 3440, 1440] @ 164.900019 FPS
+[   0.221][v][vo/gpu/x11] Current display FPS: 164.900019
+[   0.221][v][vo/gpu/x11] The XPresent extension was found.
+[   0.221][v][vo/gpu/x11] XPresent disabled.
+[   0.222][v][vo/gpu/libplacebo] Probing for vulkan devices:
+[   0.226][d][vo/gpu/libplacebo] Spent 3.464 ms enumerating physical devices
+[   0.226][v][vo/gpu/libplacebo]     GPU 0: NVIDIA GeForce RTX 4070 v1.3.289 (discrete)
+[   0.226][v][vo/gpu/libplacebo]            uuid: 05:23:96:D6:87:2E:74:F9:33:55:9E:C2:D1:B3:CA:0F
+[   0.231][v][vo/gpu/libplacebo]     GPU 1: AMD Radeon Graphics (RADV RAPHAEL_MENDOCINO) v1.3.274 (integrated)
+[   0.231][v][vo/gpu/libplacebo]            uuid: 00:00:00:00:10:00:00:00:00:00:00:00:00:00:00:00
+[   0.231][v][vo/gpu/libplacebo]     GPU 2: llvmpipe (LLVM 15.0.7, 256 bits) v1.3.274 (software)
+[   0.231][v][vo/gpu/libplacebo]            uuid: 6D:65:73:61:32:34:2E:30:2E:33:2D:31:70:6F:70:00
+[   0.231][d][vo/gpu/libplacebo]       -> excluding due to !params->allow_software
+[   0.231][v][vo/gpu/libplacebo] Vulkan device properties:
+[   0.231][v][vo/gpu/libplacebo]     Device Name: NVIDIA GeForce RTX 4070
+[   0.231][v][vo/gpu/libplacebo]     Device ID: 10de:2786
+[   0.231][v][vo/gpu/libplacebo]     Device UUID: 05:23:96:D6:87:2E:74:F9:33:55:9E:C2:D1:B3:CA:0F
+[   0.231][v][vo/gpu/libplacebo]     Driver version: 8d534000
+[   0.231][v][vo/gpu/libplacebo]     API version: 1.3.289
+[   0.231][d][vo/gpu/libplacebo] Queue families supported by device:
+[   0.231][d][vo/gpu/libplacebo]     0: flags 0xf num 16
+[   0.231][d][vo/gpu/libplacebo]     1: flags 0xc num 2
+[   0.231][d][vo/gpu/libplacebo]     2: flags 0xe num 8
+[   0.231][d][vo/gpu/libplacebo]     3: flags 0x2c num 1
+[   0.231][d][vo/gpu/libplacebo]     4: flags 0x4c num 1
+[   0.231][d][vo/gpu/libplacebo]     5: flags 0x10c num 1
+[   0.231][d][vo/gpu/libplacebo] Using graphics queue 0
+[   0.231][v][vo/gpu/libplacebo] Using async transfer (queue 1)
+[   0.231][v][vo/gpu/libplacebo] Using async compute (queue 2)
+[   0.231][d][vo/gpu/libplacebo] Spent 0.011 ms enumerating device extensions
+[   0.231][d][vo/gpu/libplacebo] Available device extensions:
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_16bit_storage
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_8bit_storage
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_acceleration_structure
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_bind_memory2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_buffer_device_address
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_calibrated_timestamps
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_cooperative_matrix
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_copy_commands2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_create_renderpass2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_dedicated_allocation
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_deferred_host_operations
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_depth_stencil_resolve
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_descriptor_update_template
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_device_group
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_draw_indirect_count
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_driver_properties
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_dynamic_rendering
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_dynamic_rendering_local_read
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_external_fence
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_external_fence_fd
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_external_memory
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_external_memory_fd
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_external_semaphore
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_external_semaphore_fd
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_format_feature_flags2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_fragment_shader_barycentric
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_fragment_shading_rate
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_get_memory_requirements2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_global_priority
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_image_format_list
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_imageless_framebuffer
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_index_type_uint8
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_line_rasterization
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_load_store_op_none
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance1
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance3
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance4
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance5
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance6
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_maintenance7
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_map_memory2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_multiview
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_pipeline_executable_properties
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_pipeline_library
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_present_id
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_present_wait
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_push_descriptor
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_ray_query
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_ray_tracing_maintenance1
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_ray_tracing_pipeline
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_ray_tracing_position_fetch
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_relaxed_block_layout
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_sampler_mirror_clamp_to_edge
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_sampler_ycbcr_conversion
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_separate_depth_stencil_layouts
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_atomic_int64
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_clock
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_draw_parameters
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_expect_assume
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_float16_int8
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_float_controls
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_float_controls2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_integer_dot_product
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_maximal_reconvergence
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_non_semantic_info
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_quad_control
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_relaxed_extended_instruction
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_subgroup_extended_types
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_subgroup_rotate
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_subgroup_uniform_control_flow
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shader_terminate_invocation
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_shared_presentable_image
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_spirv_1_4
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_storage_buffer_storage_class
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_swapchain
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_swapchain_mutable_format
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_synchronization2
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_timeline_semaphore
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_uniform_buffer_standard_layout
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_variable_pointers
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_vertex_attribute_divisor
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_decode_av1
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_decode_h264
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_decode_h265
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_decode_queue
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_encode_h264
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_encode_h265
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_encode_queue
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_maintenance1
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_video_queue
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_vulkan_memory_model
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_workgroup_memory_explicit_layout
+[   0.231][d][vo/gpu/libplacebo]     VK_KHR_zero_initialize_workgroup_memory
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_4444_formats
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_attachment_feedback_loop_dynamic_state
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_attachment_feedback_loop_layout
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_blend_operation_advanced
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_border_color_swizzle
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_buffer_device_address
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_calibrated_timestamps
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_color_write_enable
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_conditional_rendering
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_conservative_rasterization
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_custom_border_color
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_depth_bias_control
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_depth_clamp_zero_one
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_depth_clip_control
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_depth_clip_enable
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_depth_range_unrestricted
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_descriptor_buffer
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_descriptor_indexing
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_device_fault
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_discard_rectangles
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_display_control
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_dynamic_rendering_unused_attachments
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_extended_dynamic_state
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_extended_dynamic_state2
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_extended_dynamic_state3
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_external_memory_dma_buf
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_external_memory_host
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_fragment_shader_interlock
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_global_priority
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_global_priority_query
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_graphics_pipeline_library
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_host_image_copy
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_host_query_reset
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_image_2d_view_of_3d
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_image_drm_format_modifier
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_image_robustness
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_image_sliced_view_of_3d
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_image_view_min_lod
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_index_type_uint8
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_inline_uniform_block
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_legacy_vertex_attributes
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_line_rasterization
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_load_store_op_none
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_map_memory_placed
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_memory_budget
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_memory_priority
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_mesh_shader
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_multi_draw
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_mutable_descriptor_type
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_nested_command_buffer
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_non_seamless_cube_map
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_opacity_micromap
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_pageable_device_local_memory
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_pci_bus_info
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_physical_device_drm
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_pipeline_creation_cache_control
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_pipeline_creation_feedback
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_pipeline_library_group_handles
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_pipeline_robustness
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_post_depth_coverage
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_primitive_topology_list_restart
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_primitives_generated_query
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_private_data
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_provoking_vertex
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_queue_family_foreign
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_robustness2
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_sample_locations
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_sampler_filter_minmax
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_scalar_block_layout
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_separate_stencil_usage
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_shader_atomic_float
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_shader_demote_to_helper_invocation
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_shader_image_atomic_int64
+[   0.231][d][vo/gpu/libplacebo]     VK_EXT_shader_module_identifier
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_shader_object
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_shader_replicated_composites
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_shader_subgroup_ballot
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_shader_subgroup_vote
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_shader_viewport_index_layer
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_subgroup_size_control
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_swapchain_maintenance1
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_texel_buffer_alignment
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_tooling_info
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_transform_feedback
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_vertex_attribute_divisor
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_vertex_input_dynamic_state
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_ycbcr_2plane_444_formats
+[   0.232][d][vo/gpu/libplacebo]     VK_EXT_ycbcr_image_arrays
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_clip_space_w_scaling
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_compute_shader_derivatives
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_cooperative_matrix
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_copy_memory_indirect
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_corner_sampled_image
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_coverage_reduction_mode
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_cuda_kernel_launch
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_dedicated_allocation
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_dedicated_allocation_image_aliasing
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_descriptor_pool_overallocation
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_device_diagnostic_checkpoints
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_device_diagnostics_config
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_device_generated_commands
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_device_generated_commands_compute
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_fill_rectangle
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_fragment_coverage_to_color
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_fragment_shader_barycentric
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_fragment_shading_rate_enums
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_framebuffer_mixed_samples
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_geometry_shader_passthrough
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_inherited_viewport_scissor
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_linear_color_attachment
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_low_latency
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_low_latency2
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_memory_decompression
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_mesh_shader
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_optical_flow
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_raw_access_chains
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_ray_tracing
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_ray_tracing_invocation_reorder
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_ray_tracing_motion_blur
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_representative_fragment_test
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_sample_mask_override_coverage
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_scissor_exclusive
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_shader_atomic_float16_vector
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_shader_image_footprint
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_shader_sm_builtins
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_shader_subgroup_partitioned
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_shading_rate_image
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_viewport_array2
+[   0.232][d][vo/gpu/libplacebo]     VK_NV_viewport_swizzle
+[   0.232][d][vo/gpu/libplacebo]     VK_NVX_binary_import
+[   0.232][d][vo/gpu/libplacebo]     VK_NVX_image_view_handle
+[   0.232][d][vo/gpu/libplacebo]     VK_NVX_multiview_per_view_attributes
+[   0.232][d][vo/gpu/libplacebo]     VK_AMD_buffer_marker
+[   0.232][d][vo/gpu/libplacebo]     VK_GOOGLE_user_type
+[   0.232][v][vo/gpu/libplacebo] Creating vulkan device with extensions:
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_swapchain
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_swapchain
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_push_descriptor
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_external_memory_fd
+[   0.232][v][vo/gpu/libplacebo]     VK_EXT_external_memory_dma_buf
+[   0.232][v][vo/gpu/libplacebo]     VK_EXT_external_memory_host
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_external_semaphore_fd
+[   0.232][v][vo/gpu/libplacebo]     VK_EXT_pci_bus_info
+[   0.232][v][vo/gpu/libplacebo]     VK_EXT_image_drm_format_modifier
+[   0.232][v][vo/gpu/libplacebo]     VK_EXT_descriptor_buffer
+[   0.232][v][vo/gpu/libplacebo]     VK_EXT_shader_atomic_float
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_video_decode_queue
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_video_decode_h264
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_video_decode_h265
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_video_queue
+[   0.232][v][vo/gpu/libplacebo]     VK_KHR_video_decode_av1
+[   0.808][v][vo/gpu/libplacebo] Spent 576.249 ms creating vulkan device (slow!)
+[   0.808][d][vo/gpu/libplacebo] Restricting QF 0 from 16 queues to 1
+[   0.808][d][vo/gpu/libplacebo] Restricting QF 1 from 2 queues to 1
+[   0.808][d][vo/gpu/libplacebo] Restricting QF 2 from 8 queues to 1
+[   0.808][v][vo/gpu/libplacebo] Memory heaps supported by device:
+[   0.808][v][vo/gpu/libplacebo]     0: flags 0x1 size   11G
+[   0.808][v][vo/gpu/libplacebo]     1: flags 0x0 size   22G
+[   0.808][d][vo/gpu/libplacebo] Memory types supported by device:
+[   0.808][d][vo/gpu/libplacebo]     0: flags 0x0 heap 1
+[   0.808][d][vo/gpu/libplacebo]     1: flags 0x1 heap 0
+[   0.808][d][vo/gpu/libplacebo]     2: flags 0x6 heap 1
+[   0.808][d][vo/gpu/libplacebo]     3: flags 0xe heap 1
+[   0.808][d][vo/gpu/libplacebo]     4: flags 0x7 heap 0
+[   0.808][v][vo/gpu/libplacebo] Memory summary:     0 used     0 res     0 alloc, efficiency 100.00%, utilization 100.00%, max page:  767M
+[   0.808][v][vo/gpu/libplacebo] shaderc SPIR-V version 1.6 rev 1
+[   0.808][v][vo/gpu/libplacebo] Initialized SPIR-V compiler 'shaderc'
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format r8 supports fewer caps (0x1dc03) than optimal tiling (0x1dd83), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format rg8 supports fewer caps (0x1dc03) than optimal tiling (0x1dd83), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format rgba8 supports fewer caps (0x1dc03) than optimal tiling (0x1dd83), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format rgba16hf supports fewer caps (0x1dc07) than optimal tiling (0x1dd87), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format rgba16f supports fewer caps (0x1dc07) than optimal tiling (0x1dd87), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format bgra8 supports fewer caps (0x1dc03) than optimal tiling (0x1dd83), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format bgr565 supports fewer caps (0x1dc01) than optimal tiling (0x1dd81), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format bgr5a1 supports fewer caps (0x1dc01) than optimal tiling (0x1dd81), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format rgb10a2 supports fewer caps (0x1dc03) than optimal tiling (0x1dd83), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] DRM format modifier LINEAR of format bgr10a2 supports fewer caps (0x1dc01) than optimal tiling (0x1dd81), may result in limited capability!
+[   0.808][d][vo/gpu/libplacebo] Minimum texel alignment: 48
+[   0.808][v][vo/gpu/libplacebo] GPU information:
+[   0.808][v][vo/gpu/libplacebo]     GLSL version: 450 (vulkan)
+[   0.808][v][vo/gpu/libplacebo]       max_shmem_size:            49152
+[   0.808][v][vo/gpu/libplacebo]       max_group_threads:         1024
+[   0.808][v][vo/gpu/libplacebo]       max_group_size[0]:         1024
+[   0.808][v][vo/gpu/libplacebo]       max_group_size[1]:         1024
+[   0.808][v][vo/gpu/libplacebo]       max_group_size[2]:         64
+[   0.808][v][vo/gpu/libplacebo]       subgroup_size:             32
+[   0.808][v][vo/gpu/libplacebo]       min_gather_offset:         -32
+[   0.808][v][vo/gpu/libplacebo]       max_gather_offset:         31
+[   0.808][v][vo/gpu/libplacebo]     Limits:
+[   0.808][v][vo/gpu/libplacebo]       thread_safe:               1
+[   0.808][v][vo/gpu/libplacebo]       callbacks:                 1
+[   0.808][v][vo/gpu/libplacebo]       max_buf_size:              24568184832
+[   0.808][v][vo/gpu/libplacebo]       max_ubo_size:              65536
+[   0.808][v][vo/gpu/libplacebo]       max_ssbo_size:             4294967295
+[   0.808][v][vo/gpu/libplacebo]       max_vbo_size:              12878610432
+[   0.808][v][vo/gpu/libplacebo]       max_mapped_size:           24568184832
+[   0.808][v][vo/gpu/libplacebo]       max_buffer_texels:         134217728
+[   0.808][v][vo/gpu/libplacebo]       align_host_ptr:            4096
+[   0.808][v][vo/gpu/libplacebo]       host_cached:               1
+[   0.808][v][vo/gpu/libplacebo]       max_tex_1d_dim:            32768
+[   0.808][v][vo/gpu/libplacebo]       max_tex_2d_dim:            32768
+[   0.808][v][vo/gpu/libplacebo]       max_tex_3d_dim:            16384
+[   0.808][v][vo/gpu/libplacebo]       blittable_1d_3d:           1
+[   0.808][v][vo/gpu/libplacebo]       buf_transfer:              1
+[   0.808][v][vo/gpu/libplacebo]       align_tex_xfer_pitch:      1
+[   0.808][v][vo/gpu/libplacebo]       align_tex_xfer_offset:     4
+[   0.808][v][vo/gpu/libplacebo]       max_variable_comps:        0
+[   0.808][v][vo/gpu/libplacebo]       max_constants:             18446744073709551615
+[   0.808][v][vo/gpu/libplacebo]       max_pushc_size:            256
+[   0.808][v][vo/gpu/libplacebo]       align_vertex_stride:       1
+[   0.808][v][vo/gpu/libplacebo]       max_dispatch[0]:           2147483647
+[   0.808][v][vo/gpu/libplacebo]       max_dispatch[1]:           65535
+[   0.808][v][vo/gpu/libplacebo]       max_dispatch[2]:           65535
+[   0.808][v][vo/gpu/libplacebo]       fragment_queues:           1
+[   0.808][v][vo/gpu/libplacebo]       compute_queues:            1
+[   0.808][v][vo/gpu/libplacebo]     External API interop:
+[   0.808][v][vo/gpu/libplacebo]       UUID: 05:23:96:D6:87:2E:74:F9:33:55:9E:C2:D1:B3:CA:0F
+[   0.808][v][vo/gpu/libplacebo]       PCI: 0000:01:00:0
+[   0.808][v][vo/gpu/libplacebo]       buf export caps: 0x19
+[   0.808][v][vo/gpu/libplacebo]       buf import caps: 0x19
+[   0.808][v][vo/gpu/libplacebo]       tex export caps: 0x19
+[   0.808][v][vo/gpu/libplacebo]       tex import caps: 0x19
+[   0.808][v][vo/gpu/libplacebo]       sync export caps: 0x1
+[   0.808][v][vo/gpu/libplacebo]       sync import caps: 0x0
+[   0.808][d][vo/gpu/libplacebo] GPU texture formats:
+[   0.808][d][vo/gpu/libplacebo]     NAME                 TYPE   SIZE COMP CAPS         EMU DEPTH         HOST_BITS     GLSL_TYPE  GLSL_FMT   FOURCC
+[   0.808][d][vo/gpu/libplacebo]     r8                   UNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8         R8    
+[   0.808][d][vo/gpu/libplacebo]     r8s                  SNORM  1    R    SsLRbBVutHWG n   {8  0  0  0 } {8  0  0  0 } float      r8_snorm         
+[   0.808][d][vo/gpu/libplacebo]     rg8                  UNORM  2    RG   SsLRbBVutHWG n   {8  8  0  0 } {8  8  0  0 } vec2       rg8        GR88  
+[   0.808][d][vo/gpu/libplacebo]     rg8s                 SNORM  2    RG   SsLRbBVutHWG n   {8  8  0  0 } {8  8  0  0 } vec2       rg8_snorm        
+[   0.808][d][vo/gpu/libplacebo]     rgba8                UNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AB24  
+[   0.808][d][vo/gpu/libplacebo]     rgba8s               SNORM  4    RGBA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8_snorm       
+[   0.808][d][vo/gpu/libplacebo]     bgra8                UNORM  4    BGRA SsLRbBVutHWG n   {8  8  8  8 } {8  8  8  8 } vec4       rgba8      AR24  
+[   0.808][d][vo/gpu/libplacebo]     rgb10a2              UNORM  4    RGBA SsLRbBVutHWG n   {10 10 10 2 } {10 10 10 2 } vec4       rgb10_a2   AB30  
+[   0.808][d][vo/gpu/libplacebo]     r16                  UNORM  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16        R16   
+[   0.808][d][vo/gpu/libplacebo]     r16hf                FLOAT  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16f             
+[   0.808][d][vo/gpu/libplacebo]     r16s                 SNORM  2    R    SsLRbBVutHWG n   {16 0  0  0 } {16 0  0  0 } float      r16_snorm        
+[   0.808][d][vo/gpu/libplacebo]     rg16                 UNORM  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16       GR32  
+[   0.808][d][vo/gpu/libplacebo]     rg16hf               FLOAT  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16f            
+[   0.808][d][vo/gpu/libplacebo]     rg16s                SNORM  4    RG   SsLRbBVutHWG n   {16 16 0  0 } {16 16 0  0 } vec2       rg16_snorm       
+[   0.808][d][vo/gpu/libplacebo]     rgba16               UNORM  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16     AB48  
+[   0.808][d][vo/gpu/libplacebo]     rgba16hf             FLOAT  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16f    AB4H  
+[   0.808][d][vo/gpu/libplacebo]     rgba16s              SNORM  8    RGBA SsLRbBVutHWG n   {16 16 16 16} {16 16 16 16} vec4       rgba16_snorm       
+[   0.808][d][vo/gpu/libplacebo]     r32f                 FLOAT  4    R    SsLRbBVutHWG n   {32 0  0  0 } {32 0  0  0 } float      r32f             
+[   0.808][d][vo/gpu/libplacebo]     rg32f                FLOAT  8    RG   SsLRbBVutHWG n   {32 32 0  0 } {32 32 0  0 } vec2       rg32f            
+[   0.808][d][vo/gpu/libplacebo]     rgba32f              FLOAT  16   RGBA SsLRbBVutHWG n   {32 32 32 32} {32 32 32 32} vec4       rgba32f          
+[   0.808][d][vo/gpu/libplacebo]     bgr5a1               UNORM  2    BGRA S-LRbB-u-H-G n   {5  5  5  1 } {5  5  5  1 } vec4                  AR15  
+[   0.808][d][vo/gpu/libplacebo]     bgr565               UNORM  2    BGR  S-LRbB-u-H-G n   {5  6  5  0 } {5  6  5  0 } vec3                  RG16  
+[   0.808][d][vo/gpu/libplacebo]     bgr10a2              UNORM  4    BGRA S-LRbBVu-H-G n   {10 10 10 2 } {10 10 10 2 } vec4                  AR30  
+[   0.808][d][vo/gpu/libplacebo]     r8i                  SINT   1    R    Ss-R-BVutHWG n   {8  0  0  0 } {8  0  0  0 } int        r8i              
+[   0.808][d][vo/gpu/libplacebo]     r8u                  UINT   1    R    Ss-R-BVutHWG n   {8  0  0  0 } {8  0  0  0 } uint       r8ui             
+[   0.808][d][vo/gpu/libplacebo]     rg8i                 SINT   2    RG   Ss-R-BVutHWG n   {8  8  0  0 } {8  8  0  0 } ivec2      rg8i             
+[   0.808][d][vo/gpu/libplacebo]     rg8u                 UINT   2    RG   Ss-R-BVutHWG n   {8  8  0  0 } {8  8  0  0 } uvec2      rg8ui            
+[   0.808][d][vo/gpu/libplacebo]     rgba8i               SINT   4    RGBA Ss-R-BVutHWG n   {8  8  8  8 } {8  8  8  8 } ivec4      rgba8i           
+[   0.808][d][vo/gpu/libplacebo]     rgba8u               UINT   4    RGBA Ss-R-BVutHWG n   {8  8  8  8 } {8  8  8  8 } uvec4      rgba8ui          
+[   0.808][d][vo/gpu/libplacebo]     rgb10a2u             UINT   4    RGBA Ss-R-BVutHWG n   {10 10 10 2 } {10 10 10 2 } uvec4      rgb10_a2ui       
+[   0.808][d][vo/gpu/libplacebo]     r16i                 SINT   2    R    Ss-R-BVutHWG n   {16 0  0  0 } {16 0  0  0 } int        r16i             
+[   0.808][d][vo/gpu/libplacebo]     r16u                 UINT   2    R    Ss-R-BVutHWG n   {16 0  0  0 } {16 0  0  0 } uint       r16ui            
+[   0.808][d][vo/gpu/libplacebo]     rg16i                SINT   4    RG   Ss-R-BVutHWG n   {16 16 0  0 } {16 16 0  0 } ivec2      rg16i            
+[   0.808][d][vo/gpu/libplacebo]     rg16u                UINT   4    RG   Ss-R-BVutHWG n   {16 16 0  0 } {16 16 0  0 } uvec2      rg16ui           
+[   0.808][d][vo/gpu/libplacebo]     rgba16i              SINT   8    RGBA Ss-R-BVutHWG n   {16 16 16 16} {16 16 16 16} ivec4      rgba16i          
+[   0.808][d][vo/gpu/libplacebo]     rgba16u              UINT   8    RGBA Ss-R-BVutHWG n   {16 16 16 16} {16 16 16 16} uvec4      rgba16ui         
+[   0.808][d][vo/gpu/libplacebo]     r32i                 SINT   4    R    Ss-R-BVutHWG n   {32 0  0  0 } {32 0  0  0 } int        r32i             
+[   0.808][d][vo/gpu/libplacebo]     r32u                 UINT   4    R    Ss-R-BVutHWG n   {32 0  0  0 } {32 0  0  0 } uint       r32ui            
+[   0.808][d][vo/gpu/libplacebo]     rg32i                SINT   8    RG   Ss-R-BVutHWG n   {32 32 0  0 } {32 32 0  0 } ivec2      rg32i            
+[   0.808][d][vo/gpu/libplacebo]     rg32u                UINT   8    RG   Ss-R-BVutHWG n   {32 32 0  0 } {32 32 0  0 } uvec2      rg32ui           
+[   0.808][d][vo/gpu/libplacebo]     rgba32i              SINT   16   RGBA Ss-R-BVutHWG n   {32 32 32 32} {32 32 32 32} ivec4      rgba32i          
+[   0.808][d][vo/gpu/libplacebo]     rgba32u              UINT   16   RGBA Ss-R-BVutHWG n   {32 32 32 32} {32 32 32 32} uvec4      rgba32ui         
+[   0.808][d][vo/gpu/libplacebo]     a1rgb5               UNORM  2    ARGB S-L----u-H-G n   {1  5  5  5 } {1  5  5  5 } vec4                  BA15  
+[   0.808][d][vo/gpu/libplacebo]     a1bgr5               UNORM  2    ABGR S-L----u-H-G n   {1  5  5  5 } {1  5  5  5 } vec4                  RA15  
+[   0.808][d][vo/gpu/libplacebo]     gr4                  UNORM  1    GR   S-L----u-H-G n   {4  4  0  0 } {4  4  0  0 } vec2                        
+[   0.808][d][vo/gpu/libplacebo]     argb4                UNORM  2    ARGB S-L----u-H-G n   {4  4  4  4 } {4  4  4  4 } vec4                  BA12  
+[   0.808][d][vo/gpu/libplacebo]     abgr4                UNORM  2    ABGR S-L----u-H-G n   {4  4  4  4 } {4  4  4  4 } vec4                  RA12  
+[   0.808][d][vo/gpu/libplacebo]     rgb565               UNORM  2    RGB  S-L----u-H-G n   {5  6  5  0 } {5  6  5  0 } vec3                  BG16  
+[   0.808][d][vo/gpu/libplacebo]     rx10                 UNORM  2    R    S-L------H-G n   {10 0  0  0 } {16 0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     rxgx10               UNORM  4    RG   S-L------H-G n   {10 10 0  0 } {16 16 0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     rx12                 UNORM  2    R    S-L------H-G n   {12 0  0  0 } {16 0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     rxgx12               UNORM  4    RG   S-L------H-G n   {12 12 0  0 } {16 16 0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     bgra8i               SINT   4    BGRA S-----Vu-H-G n   {8  8  8  8 } {8  8  8  8 } ivec4                       
+[   0.808][d][vo/gpu/libplacebo]     bgra8u               UINT   4    BGRA S-----Vu-H-G n   {8  8  8  8 } {8  8  8  8 } uvec4                       
+[   0.808][d][vo/gpu/libplacebo]     bgr10a2u             UINT   4    BGRA S-----Vu-H-G n   {10 10 10 2 } {10 10 10 2 } uvec4                       
+[   0.808][d][vo/gpu/libplacebo]     rgb8i                SINT   3    RGB  ------V--H-- n   {8  8  8  0 } {8  8  8  0 } ivec3                       
+[   0.808][d][vo/gpu/libplacebo]     rgb8s                SNORM  3    RGB  ------V--H-- n   {8  8  8  0 } {8  8  8  0 } vec3                        
+[   0.808][d][vo/gpu/libplacebo]     rgb8u                UINT   3    RGB  ------V--H-- n   {8  8  8  0 } {8  8  8  0 } uvec3                       
+[   0.808][d][vo/gpu/libplacebo]     bgr8                 UNORM  3    BGR  ------V--H-- n   {8  8  8  0 } {8  8  8  0 } vec3                  RG24  
+[   0.808][d][vo/gpu/libplacebo]     bgr8i                SINT   3    BGR  ------V--H-- n   {8  8  8  0 } {8  8  8  0 } ivec3                       
+[   0.808][d][vo/gpu/libplacebo]     bgr8u                UINT   3    BGR  ------V--H-- n   {8  8  8  0 } {8  8  8  0 } uvec3                       
+[   0.808][d][vo/gpu/libplacebo]     rgb10a2i             SINT   4    RGBA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } ivec4                       
+[   0.808][d][vo/gpu/libplacebo]     rgb10a2s             SNORM  4    RGBA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } vec4                        
+[   0.808][d][vo/gpu/libplacebo]     bgr10a2i             SINT   4    BGRA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } ivec4                       
+[   0.808][d][vo/gpu/libplacebo]     bgr10a2s             SNORM  4    BGRA ------V--H-- n   {10 10 10 2 } {10 10 10 2 } vec4                        
+[   0.808][d][vo/gpu/libplacebo]     rgb16hf              FLOAT  6    RGB  ------V--H-- n   {16 16 16 0 } {16 16 16 0 } vec3                        
+[   0.808][d][vo/gpu/libplacebo]     rgb16i               SINT   6    RGB  ------V--H-- n   {16 16 16 0 } {16 16 16 0 } ivec3                       
+[   0.808][d][vo/gpu/libplacebo]     rgb16s               SNORM  6    RGB  ------V--H-- n   {16 16 16 0 } {16 16 16 0 } vec3                        
+[   0.808][d][vo/gpu/libplacebo]     rgb16u               UINT   6    RGB  ------V--H-- n   {16 16 16 0 } {16 16 16 0 } uvec3                       
+[   0.808][d][vo/gpu/libplacebo]     rgb32f               FLOAT  12   RGB  ------Vu-H-- n   {32 32 32 0 } {32 32 32 0 } vec3                        
+[   0.808][d][vo/gpu/libplacebo]     rgb32i               SINT   12   RGB  ------Vu-H-- n   {32 32 32 0 } {32 32 32 0 } ivec3                       
+[   0.808][d][vo/gpu/libplacebo]     rgb32u               UINT   12   RGB  ------Vu-H-- n   {32 32 32 0 } {32 32 32 0 } uvec3                       
+[   0.808][d][vo/gpu/libplacebo]     rgb8                 UNORM  3    RGB  SsLRbBV--HWG y   {8  8  8  0 } {8  8  8  0 } vec3       rgba8      BG24  
+[   0.808][d][vo/gpu/libplacebo]     rgb16                UNORM  6    RGB  SsLRbBV--HWG y   {16 16 16 0 } {16 16 16 0 } vec3       rgba16           
+[   0.808][d][vo/gpu/libplacebo]     r16f                 FLOAT  4    R    SsLRbB---HWG y   {16 0  0  0 } {32 0  0  0 }            r16f             
+[   0.808][d][vo/gpu/libplacebo]     rg16f                FLOAT  8    RG   SsLRbB---HWG y   {16 16 0  0 } {32 32 0  0 }            rg16f            
+[   0.808][d][vo/gpu/libplacebo]     rgba16f              FLOAT  16   RGBA SsLRbB---HWG y   {16 16 16 16} {32 32 32 32}            rgba16f          
+[   0.808][d][vo/gpu/libplacebo]     rgb16f               FLOAT  12   RGB  ---------H-- y   {16 16 16 0 } {32 32 32 0 }                             
+[   0.808][d][vo/gpu/libplacebo]     g8_b8_r8_420         UNORM  0         ------------ n   {8  8  8  0 } {0  0  0  0 }                       YU12  
+[   0.808][d][vo/gpu/libplacebo]     g8_b8_r8_422         UNORM  0         ------------ n   {8  8  8  0 } {0  0  0  0 }                       YU16  
+[   0.808][d][vo/gpu/libplacebo]     g8_b8_r8_444         UNORM  0         ------------ n   {8  8  8  0 } {0  0  0  0 }                       YU24  
+[   0.808][d][vo/gpu/libplacebo]     g8_br8_420           UNORM  0         ------------ n   {8  8  8  0 } {0  0  0  0 }                       NV12  
+[   0.808][d][vo/gpu/libplacebo]     g8_br8_422           UNORM  0         ------------ n   {8  8  8  0 } {0  0  0  0 }                       NV16  
+[   0.808][d][vo/gpu/libplacebo]     g8_br8_444           UNORM  0         ------------ n   {8  8  8  0 } {0  0  0  0 }                       NV24  
+[   0.808][d][vo/gpu/libplacebo]     gx10_bx10_rx10_420   UNORM  0         ------------ n   {10 10 10 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx10_bx10_rx10_422   UNORM  0         ------------ n   {10 10 10 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx10_bx10_rx10_444   UNORM  0         ------------ n   {10 10 10 0 } {0  0  0  0 }                       Q410  
+[   0.808][d][vo/gpu/libplacebo]     gx10_bxrx10_420      UNORM  0         ------------ n   {10 10 10 0 } {0  0  0  0 }                       P010  
+[   0.808][d][vo/gpu/libplacebo]     gx10_bxrx10_422      UNORM  0         ------------ n   {10 10 10 0 } {0  0  0  0 }                       P210  
+[   0.808][d][vo/gpu/libplacebo]     gx10_bxrx10_444      UNORM  0         ------------ n   {10 10 10 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx12_bx12_rx12_420   UNORM  0         ------------ n   {12 12 12 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx12_bx12_rx12_422   UNORM  0         ------------ n   {12 12 12 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx12_bx12_rx12_444   UNORM  0         ------------ n   {12 12 12 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx12_bxrx12_420      UNORM  0         ------------ n   {12 12 12 0 } {0  0  0  0 }                       P012  
+[   0.808][d][vo/gpu/libplacebo]     gx12_bxrx12_422      UNORM  0         ------------ n   {12 12 12 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     gx12_bxrx12_444      UNORM  0         ------------ n   {12 12 12 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     g16_b16_r16_420      UNORM  0         ------------ n   {16 16 16 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     g16_b16_r16_422      UNORM  0         ------------ n   {16 16 16 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     g16_b16_r16_444      UNORM  0         ------------ n   {16 16 16 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     g16_br16_420         UNORM  0         ------------ n   {16 16 16 0 } {0  0  0  0 }                       P016  
+[   0.808][d][vo/gpu/libplacebo]     g16_br16_422         UNORM  0         ------------ n   {16 16 16 0 } {0  0  0  0 }                             
+[   0.808][d][vo/gpu/libplacebo]     g16_br16_444         UNORM  0         ------------ n   {16 16 16 0 } {0  0  0  0 }                             
+[   0.808][v][vo/gpu/libplacebo] Available surface configurations:
+[   0.808][v][vo/gpu/libplacebo]     0: VK_FORMAT_B8G8R8A8_UNORM                 VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   0.808][v][vo/gpu/libplacebo]     1: VK_FORMAT_B8G8R8A8_SRGB                  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   0.808][v][vo/gpu/libplacebo] Picked surface configuration 0: VK_FORMAT_B8G8R8A8_UNORM + VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+[   0.809][d][vo/gpu/vulkan] Texture formats:
+[   0.809][d][vo/gpu/vulkan]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   0.809][d][vo/gpu/vulkan]   r8         1*unorm   1B    LF CR ST {8}
+[   0.809][d][vo/gpu/vulkan]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   0.809][d][vo/gpu/vulkan]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.809][d][vo/gpu/vulkan]   bgra8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.809][d][vo/gpu/vulkan]   rgb10a2    4*unorm   4B    LF CR ST {10 10 10 2}
+[   0.809][d][vo/gpu/vulkan]   r16        1*unorm   2B    LF CR ST {16}
+[   0.809][d][vo/gpu/vulkan]   r16hf      1*float   2B    LF CR ST {16}
+[   0.809][d][vo/gpu/vulkan]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   0.809][d][vo/gpu/vulkan]   rg16hf     2*float   4B    LF CR ST {16 16}
+[   0.809][d][vo/gpu/vulkan]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.809][d][vo/gpu/vulkan]   rgba16hf   4*float   8B    LF CR ST {16 16 16 16}
+[   0.809][d][vo/gpu/vulkan]   r32f       1*float   4B    LF CR ST {32}
+[   0.809][d][vo/gpu/vulkan]   rg32f      2*float   8B    LF CR ST {32 32}
+[   0.809][d][vo/gpu/vulkan]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   0.809][d][vo/gpu/vulkan]   bgr5a1     4*unorm   2B    LF CR    {5 5 5 1}
+[   0.809][d][vo/gpu/vulkan]   bgr565     3*unorm   2B    LF CR    {5 6 5}
+[   0.809][d][vo/gpu/vulkan]   bgr10a2    4*unorm   4B    LF CR    {10 10 10 2}
+[   0.809][d][vo/gpu/vulkan]   r8u        1*uint    1B       CR ST {8}
+[   0.809][d][vo/gpu/vulkan]   rg8u       2*uint    2B       CR ST {8 8}
+[   0.809][d][vo/gpu/vulkan]   rgba8u     4*uint    4B       CR ST {8 8 8 8}
+[   0.809][d][vo/gpu/vulkan]   rgb10a2u   4*uint    4B       CR ST {10 10 10 2}
+[   0.809][d][vo/gpu/vulkan]   r16u       1*uint    2B       CR ST {16}
+[   0.809][d][vo/gpu/vulkan]   rg16u      2*uint    4B       CR ST {16 16}
+[   0.809][d][vo/gpu/vulkan]   rgba16u    4*uint    8B       CR ST {16 16 16 16}
+[   0.809][d][vo/gpu/vulkan]   r32u       1*uint    4B       CR ST {32}
+[   0.809][d][vo/gpu/vulkan]   rg32u      2*uint    8B       CR ST {32 32}
+[   0.809][d][vo/gpu/vulkan]   rgba32u    4*uint   16B       CR ST {32 32 32 32}
+[   0.809][d][vo/gpu/vulkan]   a1rgb5     4*unorm   2B    LF       {1 5 5 5}
+[   0.809][d][vo/gpu/vulkan]   a1bgr5     4*unorm   2B    LF       {1 5 5 5}
+[   0.809][d][vo/gpu/vulkan]   gr4        2*unorm   1B    LF       {4 4}
+[   0.809][d][vo/gpu/vulkan]   argb4      4*unorm   2B    LF       {4 4 4 4}
+[   0.809][d][vo/gpu/vulkan]   abgr4      4*unorm   2B    LF       {4 4 4 4}
+[   0.809][d][vo/gpu/vulkan]   rgb565     3*unorm   2B    LF       {5 6 5}
+[   0.809][d][vo/gpu/vulkan]   rx10       1*unorm   2B    LF       {16/10}
+[   0.809][d][vo/gpu/vulkan]   rxgx10     2*unorm   4B    LF       {16/10 16/10}
+[   0.809][d][vo/gpu/vulkan]   rx12       1*unorm   2B    LF       {16/12}
+[   0.809][d][vo/gpu/vulkan]   rxgx12     2*unorm   4B    LF       {16/12 16/12}
+[   0.809][d][vo/gpu/vulkan]   bgra8u     4*uint    4B             {8 8 8 8}
+[   0.809][d][vo/gpu/vulkan]   bgr10a2u   4*uint    4B             {10 10 10 2}
+[   0.809][d][vo/gpu/vulkan]   rgb8       3*unorm   3B    LF CR ST {8 8 8}
+[   0.809][d][vo/gpu/vulkan]   rgb16      3*unorm   6B    LF CR ST {16 16 16}
+[   0.809][d][vo/gpu/vulkan]   r16f       1*float   4B    LF CR ST {32/16}
+[   0.809][d][vo/gpu/vulkan]   rg16f      2*float   8B    LF CR ST {32/16 32/16}
+[   0.809][d][vo/gpu/vulkan]   rgba16f    4*float  16B    LF CR ST {32/16 32/16 32/16 32/16}
+[   0.809][d][vo/gpu/vulkan]  LA = LUMINANCE_ALPHA hack format
+[   0.809][d][vo/gpu/vulkan]  LF = linear filterable
+[   0.809][d][vo/gpu/vulkan]  CR = can be used for render targets
+[   0.809][d][vo/gpu/vulkan]  ST = can be used for storable images
+[   0.809][d][vo/gpu/vulkan] Image formats:
+[   0.809][d][vo/gpu/vulkan]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   uyvy422
+[   0.809][d][vo/gpu/vulkan]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.809][d][vo/gpu/vulkan]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   0.809][d][vo/gpu/vulkan]   bgr24 => 1 planes 1x1 8/0 [rgb8] (bgr) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgb24 => 1 planes 1x1 8/0 [rgb8] (rgb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.809][d][vo/gpu/vulkan]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgb565
+[   0.809][d][vo/gpu/vulkan]   pal8
+[   0.809][d][vo/gpu/vulkan]   vdpau
+[   0.809][d][vo/gpu/vulkan]   d3d11
+[   0.809][d][vo/gpu/vulkan]   dxva2_vld
+[   0.809][d][vo/gpu/vulkan]   mmal
+[   0.809][d][vo/gpu/vulkan]   mediacodec
+[   0.809][d][vo/gpu/vulkan]   cuda
+[   0.809][d][vo/gpu/vulkan]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   grayaf32 => 2 planes 1x1 32/0 [r32f/r32f] (r/a) [float]
+[   0.809][d][vo/gpu/vulkan]   yuv444pf => 3 planes 1x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva444pf => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.809][d][vo/gpu/vulkan]   yuv420pf => 3 planes 2x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva420pf => 4 planes 2x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.809][d][vo/gpu/vulkan]   yuv422pf => 3 planes 2x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva422pf => 4 planes 2x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.809][d][vo/gpu/vulkan]   yuv440pf => 3 planes 1x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva440pf => 4 planes 1x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.809][d][vo/gpu/vulkan]   yuv410pf => 3 planes 4x4 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva410pf => 4 planes 4x4 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.809][d][vo/gpu/vulkan]   yuv411pf => 3 planes 4x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva411pf => 4 planes 4x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.809][d][vo/gpu/vulkan]   rgb30
+[   0.809][d][vo/gpu/vulkan]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   vdpau_output
+[   0.809][d][vo/gpu/vulkan]   vaapi
+[   0.809][d][vo/gpu/vulkan]   videotoolbox
+[   0.809][d][vo/gpu/vulkan]   vulkan
+[   0.809][d][vo/gpu/vulkan]   drm_prime
+[   0.809][d][vo/gpu/vulkan]   yuyv422
+[   0.809][d][vo/gpu/vulkan]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   monow
+[   0.809][d][vo/gpu/vulkan]   monob
+[   0.809][d][vo/gpu/vulkan]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   uyyvyy411
+[   0.809][d][vo/gpu/vulkan]   bgr8
+[   0.809][d][vo/gpu/vulkan]   bgr4
+[   0.809][d][vo/gpu/vulkan]   bgr4_byte
+[   0.809][d][vo/gpu/vulkan]   rgb8
+[   0.809][d][vo/gpu/vulkan]   rgb4
+[   0.809][d][vo/gpu/vulkan]   rgb4_byte
+[   0.809][d][vo/gpu/vulkan]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gray16be
+[   0.809][d][vo/gpu/vulkan]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgb48be
+[   0.809][d][vo/gpu/vulkan]   rgb48 => 1 planes 1x1 16/0 [rgb16] (rgb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgb565be
+[   0.809][d][vo/gpu/vulkan]   rgb555be
+[   0.809][d][vo/gpu/vulkan]   rgb555
+[   0.809][d][vo/gpu/vulkan]   bgr565be
+[   0.809][d][vo/gpu/vulkan]   bgr565
+[   0.809][d][vo/gpu/vulkan]   bgr555be
+[   0.809][d][vo/gpu/vulkan]   bgr555
+[   0.809][d][vo/gpu/vulkan]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv420p16be
+[   0.809][d][vo/gpu/vulkan]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv422p16be
+[   0.809][d][vo/gpu/vulkan]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv444p16be
+[   0.809][d][vo/gpu/vulkan]   rgb444
+[   0.809][d][vo/gpu/vulkan]   rgb444be
+[   0.809][d][vo/gpu/vulkan]   bgr444
+[   0.809][d][vo/gpu/vulkan]   bgr444be
+[   0.809][d][vo/gpu/vulkan]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   0.809][d][vo/gpu/vulkan]   bgr48be
+[   0.809][d][vo/gpu/vulkan]   bgr48 => 1 planes 1x1 16/0 [rgb16] (bgr) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv420p9be
+[   0.809][d][vo/gpu/vulkan]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv420p10be
+[   0.809][d][vo/gpu/vulkan]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv422p10be
+[   0.809][d][vo/gpu/vulkan]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv444p9be
+[   0.809][d][vo/gpu/vulkan]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv444p10be
+[   0.809][d][vo/gpu/vulkan]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv422p9be
+[   0.809][d][vo/gpu/vulkan]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp9be
+[   0.809][d][vo/gpu/vulkan]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp10be
+[   0.809][d][vo/gpu/vulkan]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp16be
+[   0.809][d][vo/gpu/vulkan]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva420p9be
+[   0.809][d][vo/gpu/vulkan]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva422p9be
+[   0.809][d][vo/gpu/vulkan]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva444p9be
+[   0.809][d][vo/gpu/vulkan]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva420p10be
+[   0.809][d][vo/gpu/vulkan]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva422p10be
+[   0.809][d][vo/gpu/vulkan]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva444p10be
+[   0.809][d][vo/gpu/vulkan]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva420p16be
+[   0.809][d][vo/gpu/vulkan]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva422p16be
+[   0.809][d][vo/gpu/vulkan]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva444p16be
+[   0.809][d][vo/gpu/vulkan]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   xyz12 => 1 planes 1x1 16/4 [rgb16] (rgb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   xyz12be
+[   0.809][d][vo/gpu/vulkan]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   nv20be
+[   0.809][d][vo/gpu/vulkan]   rgba64be
+[   0.809][d][vo/gpu/vulkan]   bgra64be
+[   0.809][d][vo/gpu/vulkan]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yvyu422
+[   0.809][d][vo/gpu/vulkan]   ya16be
+[   0.809][d][vo/gpu/vulkan]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrap16be
+[   0.809][d][vo/gpu/vulkan]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   qsv
+[   0.809][d][vo/gpu/vulkan]   d3d11va_vld
+[   0.809][d][vo/gpu/vulkan]   yuv420p12be
+[   0.809][d][vo/gpu/vulkan]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv420p14be
+[   0.809][d][vo/gpu/vulkan]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv422p12be
+[   0.809][d][vo/gpu/vulkan]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv422p14be
+[   0.809][d][vo/gpu/vulkan]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv444p12be
+[   0.809][d][vo/gpu/vulkan]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv444p14be
+[   0.809][d][vo/gpu/vulkan]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp12be
+[   0.809][d][vo/gpu/vulkan]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrp14be
+[   0.809][d][vo/gpu/vulkan]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   bayer_bggr8
+[   0.809][d][vo/gpu/vulkan]   bayer_rggb8
+[   0.809][d][vo/gpu/vulkan]   bayer_gbrg8
+[   0.809][d][vo/gpu/vulkan]   bayer_grbg8
+[   0.809][d][vo/gpu/vulkan]   bayer_bggr16
+[   0.809][d][vo/gpu/vulkan]   bayer_bggr16be
+[   0.809][d][vo/gpu/vulkan]   bayer_rggb16
+[   0.809][d][vo/gpu/vulkan]   bayer_rggb16be
+[   0.809][d][vo/gpu/vulkan]   bayer_gbrg16
+[   0.809][d][vo/gpu/vulkan]   bayer_gbrg16be
+[   0.809][d][vo/gpu/vulkan]   bayer_grbg16
+[   0.809][d][vo/gpu/vulkan]   bayer_grbg16be
+[   0.809][d][vo/gpu/vulkan]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv440p10be
+[   0.809][d][vo/gpu/vulkan]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuv440p12be
+[   0.809][d][vo/gpu/vulkan]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   ayuv64be
+[   0.809][d][vo/gpu/vulkan]   p010be
+[   0.809][d][vo/gpu/vulkan]   gbrap12be
+[   0.809][d][vo/gpu/vulkan]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrap10be
+[   0.809][d][vo/gpu/vulkan]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gray12be
+[   0.809][d][vo/gpu/vulkan]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gray10be
+[   0.809][d][vo/gpu/vulkan]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p016be
+[   0.809][d][vo/gpu/vulkan]   gray9be
+[   0.809][d][vo/gpu/vulkan]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrpf32be
+[   0.809][d][vo/gpu/vulkan]   gbrpf32 => 3 planes 1x1 32/0 [r32f/r32f/r32f] (g/b/r) [float]
+[   0.809][d][vo/gpu/vulkan]   gbrapf32be
+[   0.809][d][vo/gpu/vulkan]   gbrapf32 => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (g/b/r/a) [float]
+[   0.809][d][vo/gpu/vulkan]   opencl
+[   0.809][d][vo/gpu/vulkan]   gray14be
+[   0.809][d][vo/gpu/vulkan]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   0.809][d][vo/gpu/vulkan]   grayf32be
+[   0.809][d][vo/gpu/vulkan]   grayf32 => 1 planes 1x1 32/0 [r32f] (r) [float]
+[   0.809][d][vo/gpu/vulkan]   yuva422p12be
+[   0.809][d][vo/gpu/vulkan]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   yuva444p12be
+[   0.809][d][vo/gpu/vulkan]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.809][d][vo/gpu/vulkan]   y210be
+[   0.809][d][vo/gpu/vulkan]   y210
+[   0.809][d][vo/gpu/vulkan]   x2rgb10be
+[   0.809][d][vo/gpu/vulkan]   x2bgr10
+[   0.809][d][vo/gpu/vulkan]   x2bgr10be
+[   0.809][d][vo/gpu/vulkan]   p210be
+[   0.809][d][vo/gpu/vulkan]   p210 => 2 planes 2x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p410be
+[   0.809][d][vo/gpu/vulkan]   p410 => 2 planes 1x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p216be
+[   0.809][d][vo/gpu/vulkan]   p216 => 2 planes 2x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p416be
+[   0.809][d][vo/gpu/vulkan]   p416 => 2 planes 1x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   vuya => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgbaf16be
+[   0.809][d][vo/gpu/vulkan]   rgbaf16 => 1 planes 1x1 16/0 [rgba16hf] (rgba) [float]
+[   0.809][d][vo/gpu/vulkan]   vuyx => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p012 => 2 planes 2x2 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p012be
+[   0.809][d][vo/gpu/vulkan]   y212be
+[   0.809][d][vo/gpu/vulkan]   y212
+[   0.809][d][vo/gpu/vulkan]   xv30be
+[   0.809][d][vo/gpu/vulkan]   xv30
+[   0.809][d][vo/gpu/vulkan]   xv36be
+[   0.809][d][vo/gpu/vulkan]   xv36 => 1 planes 1x1 16/4 [rgba16] (grb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   rgbf32be
+[   0.809][d][vo/gpu/vulkan]   rgbf32
+[   0.809][d][vo/gpu/vulkan]   rgbaf32be
+[   0.809][d][vo/gpu/vulkan]   rgbaf32
+[   0.809][d][vo/gpu/vulkan]   p212be
+[   0.809][d][vo/gpu/vulkan]   p212 => 2 planes 2x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   p412be
+[   0.809][d][vo/gpu/vulkan]   p412 => 2 planes 1x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.809][d][vo/gpu/vulkan]   gbrap14be
+[   0.809][d][vo/gpu/vulkan]   gbrap14 => 4 planes 1x1 16/-2 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.809][d][vo/gpu/vulkan]   d3d12
+[   0.809][v][vo/gpu] Testing FBO format rgba16f
+[   0.809][d][vo/gpu] Resizing texture: 16x16
+[   0.809][d][vo/gpu/libplacebo] Allocating 262144 memory of type 0x1 (id 1) in heap 0: unknown
+[   0.809][d][vo/gpu/libplacebo] Spent 0.127 ms allocating slab
+[   0.809][v][vo/gpu] Using FBO format rgba16f.
+[   0.809][d][global] cache path: '' -> '/home/jakejoyner/.cache/mpv'
+[   0.809][v][vo/gpu] Assuming 164.900019 FPS for display sync.
+[   0.809][v][vd] Container reported FPS: 23.976024
+[   0.810][v][vd] Codec list:
+[   0.810][v][vd]     h264 - H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.810][v][vd]     h264_v4l2m2m (h264) - V4L2 mem2mem H.264 decoder wrapper
+[   0.810][v][vd] Opening decoder h264
+[   0.810][v][vd] Using software decoding.
+[   0.810][v][vd] Detected 16 logical cores.
+[   0.810][v][vd] Requesting 16 threads for decoding.
+[   0.817][v][vd] Selected decoder: h264 - H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+[   0.817][v][user_filter_wrapper] Setting option 'file' = '/home/jakejoyner/mpv/motion_interpolation.vpy' (flags = 0)
+[   0.817][v][user_filter_wrapper] Setting option 'buffered-frames' = '4' (flags = 0)
+[   0.817][v][user_filter_wrapper] Setting option 'concurrent-frames' = '32' (flags = 0)
+[   0.817][d][global] user path: '/home/jakejoyner/mpv/motion_interpolation.vpy' -> '/home/jakejoyner/mpv/motion_interpolation.vpy'
+[   0.817][v][vapoursynth] using 32 concurrent requests.
+[   0.847][v][vf] User filter list:
+[   0.847][v][vf]   vapoursynth (vapoursynth.00)
+[   0.847][v][ad] Codec list:
+[   0.847][v][ad]     aac - AAC (Advanced Audio Coding)
+[   0.847][v][ad]     aac_fixed (aac) - AAC (Advanced Audio Coding)
+[   0.847][v][ad] Opening decoder aac
+[   0.847][v][ad] Requesting 1 threads for decoding.
+[   0.848][v][ad] Selected decoder: aac - AAC (Advanced Audio Coding)
+[   0.848][v][af] User filter list:
+[   0.848][v][af]   (empty)
+[   0.848][v][cplayer] Starting playback...
+[   0.848][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.848][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.848][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.848][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.848][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[   0.848][v][lavf] queuing seek to 20.520500
+[   0.848][v][lavf] execute seek (to 20.520500 flags 32)
+[   0.848][v][cplayer] hr-seek, skipping to 20.520500
+[   0.848][v][lavf] seek done
+[   0.848][v][file] stream level seek from 10443251 to 10578569
+[   0.849][d][ffmpeg/video] h264: Reinit context to 1920x816, pix_fmt: yuv420p
+[   0.849][d][vd] DR parameter change to 1920x834 yuv420p align=64
+[   0.849][d][vd] Allocating new (host-cached) DR image...
+[   0.849][d][vo/gpu/libplacebo] Allocating 9965568 memory of type 0xe (id 3) in heap 1: unknown
+[   0.850][d][vo/gpu/libplacebo] Spent 1.533 ms allocating slab
+[   0.851][d][vd] Allocating new (host-cached) DR image...
+[   0.852][d][vd] Allocating new (host-cached) DR image...
+[   0.853][d][vd] Allocating new (host-cached) DR image...
+[   0.854][d][vd] Allocating new (host-cached) DR image...
+[   0.854][d][vo/gpu/libplacebo] Allocating 19931136 memory of type 0xe (id 3) in heap 1: unknown
+[   0.858][d][vo/gpu/libplacebo] Spent 4.142 ms allocating slab
+[   0.859][d][vd] Allocating new (host-cached) DR image...
+[   0.860][d][vd] Allocating new (host-cached) DR image...
+[   0.860][d][vd] Allocating new (host-cached) DR image...
+[   0.861][d][vd] Allocating new (host-cached) DR image...
+[   0.862][d][vd] Allocating new (host-cached) DR image...
+[   0.863][d][vd] Allocating new (host-cached) DR image...
+[   0.863][d][vd] Allocating new (host-cached) DR image...
+[   0.864][d][vd] Allocating new (host-cached) DR image...
+[   0.864][d][vo/gpu/libplacebo] Allocating 39862272 memory of type 0xe (id 3) in heap 1: unknown
+[   0.871][d][vo/gpu/libplacebo] Spent 6.898 ms allocating slab
+[   0.872][d][vd] Allocating new (host-cached) DR image...
+[   0.873][d][vd] Allocating new (host-cached) DR image...
+[   0.874][d][vd] Allocating new (host-cached) DR image...
+[   0.874][d][vd] Allocating new (host-cached) DR image...
+[   0.875][v][vd] Using software decoding.
+[   0.875][v][vd] Decoder format: 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.875][v][vd] Using container aspect ratio.
+[   0.875][d][vd] Allocating new (host-cached) DR image...
+[   0.875][v][vf] [in] 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.875][v][vf] [userdeint] 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.875][v][vf] [userdeint] (disabled)
+[   0.875][v][vf] [vapoursynth] 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.875][d][vd] Allocating new (host-cached) DR image...
+[   0.875][d][vapoursynth] initializing...
+[   0.877][f][vapoursynth] Script evaluation failed:
+[   0.877][f][vapoursynth] Python exception: Failed to load /home/linuxbrew/.linuxbrew/lib/libmvtools.dylib. Error given: /home/linuxbrew/.linuxbrew/lib/libmvtools.dylib: cannot open shared object file: No such file or directory
+[   0.877][f][vapoursynth] 
+[   0.877][f][vapoursynth] Traceback (most recent call last):
+[   0.877][f][vapoursynth]   File "src/cython/vapoursynth.pyx", line 3387, in vapoursynth._vpy_evaluate
+[   0.877][f][vapoursynth]   File "src/cython/vapoursynth.pyx", line 3388, in vapoursynth._vpy_evaluate
+[   0.877][f][vapoursynth]   File "/home/jakejoyner/mpv/motion_interpolation.vpy", line 6, in <module>
+[   0.877][f][vapoursynth]     vs.core.std.LoadPlugin(path="/home/linuxbrew/.linuxbrew/lib/libmvtools.dylib")
+[   0.877][f][vapoursynth]     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[   0.877][f][vapoursynth]   File "src/cython/vapoursynth.pyx", line 3123, in vapoursynth.Function.__call__
+[   0.877][f][vapoursynth] vapoursynth.Error: Failed to load /home/linuxbrew/.linuxbrew/lib/libmvtools.dylib. Error given: /home/linuxbrew/.linuxbrew/lib/libmvtools.dylib: cannot open shared object file: No such file or directory
+[   0.877][f][vapoursynth] 
+[   0.877][d][vapoursynth] destroying VS filters
+[   0.877][d][vapoursynth] all requests terminated
+[   0.879][d][vapoursynth] uninitialized.
+[   0.879][e][vapoursynth] could not init VS
+[   0.879][e][vf] Disabling filter vapoursynth.00 because it has failed.
+[   0.879][v][vf] [autorotate] 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.879][v][vf] [autorotate] (disabled)
+[   0.879][v][vf] [convert] 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.879][v][vf] [convert] (disabled)
+[   0.879][v][vf] [out] 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   0.879][v][af] [in] 48000Hz stereo 2ch floatp
+[   0.879][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   0.879][v][af] [userspeed] (disabled)
+[   0.879][v][af] [convert] 48000Hz stereo 2ch floatp
+[   0.879][d][global] config path: 'fonts' -/-> '/home/jakejoyner/.config/mpv/fonts'
+[   0.879][d][global] config path: 'fonts' -/-> '/home/jakejoyner/.mpv/fonts'
+[   0.879][d][global] config path: 'fonts' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/fonts'
+[   0.879][d][osd/libass] ASS library version: 0x1703000 (runtime 0x1703000)
+[   0.879][v][osd/libass] libass API version: 0x1703000
+[   0.879][v][osd/libass] libass source: tarball: 0.17.3
+[   0.880][v][osd/libass] Shaper: FriBidi 1.0.15 (SIMPLE) HarfBuzz-ng 10.3.0 (COMPLEX)
+[   0.880][d][global] config path: 'subfont.ttf' -/-> '/home/jakejoyner/.config/mpv/subfont.ttf'
+[   0.880][d][global] config path: 'subfont.ttf' -/-> '/home/jakejoyner/.mpv/subfont.ttf'
+[   0.880][d][global] config path: 'subfont.ttf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/subfont.ttf'
+[   0.880][d][global] config path: 'fonts.conf' -/-> '/home/jakejoyner/.config/mpv/fonts.conf'
+[   0.880][d][global] config path: 'fonts.conf' -/-> '/home/jakejoyner/.mpv/fonts.conf'
+[   0.880][d][global] config path: 'fonts.conf' -/-> '/home/linuxbrew/.linuxbrew/etc/mpv/mpv/fonts.conf'
+[   0.880][v][osd/libass] Setting up fonts...
+[   0.885][v][osd/libass] Using font provider fontconfig
+[   0.885][v][osd/libass] Done.
+[   0.885][v][ao] Trying audio driver 'pulse'
+[   0.885][v][ao/pulse] requested format: 48000 Hz, stereo channels, floatp
+[   0.885][v][ao/pulse] Library version: 17.0.0
+[   0.885][v][ao/pulse] Proto: 35
+[   0.885][v][ao/pulse] Server proto: 4294967295
+[   0.902][v][ao/pulse] Channel layouts:
+[   0.902][v][ao/pulse]  - #fl
+[   0.902][v][ao/pulse]  - #fr
+[   0.902][v][ao/pulse]  - #fc
+[   0.902][v][ao/pulse]  - #lfe
+[   0.902][v][ao/pulse]  - #bl
+[   0.902][v][ao/pulse]  - #br
+[   0.902][v][ao/pulse]  - #flc
+[   0.902][v][ao/pulse]  - #frc
+[   0.902][v][ao/pulse]  - #bc
+[   0.902][v][ao/pulse]  - #sl
+[   0.902][v][ao/pulse]  - #sr
+[   0.902][v][ao/pulse]  - #tc
+[   0.902][v][ao/pulse]  - #tfl
+[   0.902][v][ao/pulse]  - #tfc
+[   0.902][v][ao/pulse]  - #tfr
+[   0.902][v][ao/pulse]  - #tbl
+[   0.902][v][ao/pulse]  - #tbc
+[   0.902][v][ao/pulse]  - #tbr
+[   0.902][v][ao/pulse] result: stereo
+[   0.907][v][ao/pulse] device buffer: 4800 samples.
+[   0.907][v][ao/pulse] using soft-buffer of 9600 samples.
+[   0.907][i][cplayer] AO: [pulse] 48000Hz stereo 2ch float
+[   0.907][v][cplayer] AO: Description: PulseAudio audio output
+[   0.908][v][autoconvert] inserting resampler
+[   0.908][v][swresample] format change, reinitializing resampler
+[   0.908][v][swresample] 48000Hz stereo floatp -> 48000Hz stereo float
+[   0.908][v][af] [out] 48000Hz stereo 2ch float
+[   0.908][d][vd] Allocating new (host-cached) DR image...
+[   0.908][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   0.925][d][osc] osc_init
+[   0.932][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   1.021][i][cplayer] VO: [gpu] 1920x802 yuv420p
+[   1.021][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   1.021][v][vo/gpu] reconfig to 1920x802 yuv420p bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1920x802+0+0
+[   1.021][d][vo/gpu] max content size: 3440x1440
+[   1.021][d][vo/gpu] monitor size: 3440x1440
+[   1.022][v][vo/gpu/x11] not waiting for MapNotify
+[   1.023][d][vo/gpu/libplacebo] Requested alpha compositing mode: VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+[   1.023][d][vo/gpu/libplacebo] Requested surface transform: VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+[   1.023][d][vo/gpu/libplacebo] Requested image count: 4 (min 3 max 8)
+[   1.023][d][vo/gpu/libplacebo] Requested image size: 1720x1420 (min 1720x1420 < cur 1720x1420 < max 1720x1420)
+[   1.023][d][vo/gpu/libplacebo] (Re)creating swapchain of size 1720x1420
+[   1.064][v][vo/gpu] Resize: 1720x1420
+[   1.064][v][vo/gpu] Window size: 1720x1420 (Borders: l=0 t=0 r=0 b=0)
+[   1.064][v][vo/gpu] Video source: 1920x802 (1:1)
+[   1.064][v][vo/gpu] Video display: (0, 0) 1920x802 -> (0, 351) 1720x718
+[   1.064][v][vo/gpu] Video scale: 0.895833/0.895262
+[   1.064][v][vo/gpu] OSD borders: l=0 t=351 r=0 b=351
+[   1.064][v][vo/gpu] Video borders: l=0 t=351 r=0 b=351
+[   1.064][v][vo/gpu] Texture for plane 0: 1920x802
+[   1.064][d][vo/gpu/libplacebo] Allocating 6881280 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.064][d][vo/gpu/libplacebo] Spent 0.203 ms allocating slab
+[   1.064][v][vo/gpu] Texture for plane 1: 960x401
+[   1.064][v][vo/gpu] Texture for plane 2: 960x401
+[   1.064][v][vo/gpu] Testing FBO format rgba16f
+[   1.064][d][vo/gpu] Resizing texture: 16x16
+[   1.064][v][vo/gpu] Using FBO format rgba16f.
+[   1.065][v][vo/gpu] DR enabled: yes
+[   1.065][d][vo/gpu] Resizing texture: 960x401
+[   1.065][d][vo/gpu/libplacebo] Allocating 3932160 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.065][d][vo/gpu/libplacebo] Spent 0.046 ms allocating slab
+[   1.065][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.065][d][vo/gpu/libplacebo] Allocating 258048 memory of type 0x7 (id 4) in heap 0: unknown
+[   1.066][d][vo/gpu/libplacebo] Spent 0.103 ms allocating slab
+[   1.066][d][vo/gpu/libplacebo] vertex shader source:
+[   1.066][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.066][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.066][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.066][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.066][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.066][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.066][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.066][d][vo/gpu/libplacebo] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   1.066][d][vo/gpu/libplacebo] [  9] layout(location=2) out vec2 texcoord1;
+[   1.066][d][vo/gpu/libplacebo] [ 10] void main() {
+[   1.066][d][vo/gpu/libplacebo] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.066][d][vo/gpu/libplacebo] [ 12] texcoord0 = vertex_texcoord0;
+[   1.066][d][vo/gpu/libplacebo] [ 13] texcoord1 = vertex_texcoord1;
+[   1.066][d][vo/gpu/libplacebo] [ 14] }
+[   1.066][d][vo/gpu/libplacebo] fragment shader source:
+[   1.066][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.066][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.066][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.066][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.066][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.066][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.066][d][vo/gpu/libplacebo] [  7] layout(location=2) in vec2 texcoord1;
+[   1.066][d][vo/gpu/libplacebo] [  8] layout(std140, binding=2) uniform UBO {
+[   1.066][d][vo/gpu/libplacebo] [  9] layout(offset=0) mat2 texture_rot0;
+[   1.066][d][vo/gpu/libplacebo] [ 10] layout(offset=32) mat2 texture_rot1;
+[   1.066][d][vo/gpu/libplacebo] [ 11] };
+[   1.066][d][vo/gpu/libplacebo] [ 12] layout(std430, push_constant) uniform PushC {
+[   1.066][d][vo/gpu/libplacebo] [ 13] layout(offset=0) vec2 texture_size0;
+[   1.066][d][vo/gpu/libplacebo] [ 14] layout(offset=8) vec2 texture_off0;
+[   1.066][d][vo/gpu/libplacebo] [ 15] layout(offset=16) vec2 pixel_size0;
+[   1.066][d][vo/gpu/libplacebo] [ 16] layout(offset=24) vec2 texture_size1;
+[   1.066][d][vo/gpu/libplacebo] [ 17] layout(offset=32) vec2 texture_off1;
+[   1.066][d][vo/gpu/libplacebo] [ 18] layout(offset=40) vec2 pixel_size1;
+[   1.066][d][vo/gpu/libplacebo] [ 19] };
+[   1.066][d][vo/gpu/libplacebo] [ 20] layout(binding=0) uniform sampler2D texture0;
+[   1.066][d][vo/gpu/libplacebo] [ 21] layout(binding=1) uniform sampler2D texture1;
+[   1.066][d][vo/gpu/libplacebo] [ 22] void main() {
+[   1.066][d][vo/gpu/libplacebo] [ 23] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.066][d][vo/gpu/libplacebo] [ 24] // merging plane 1 ...
+[   1.066][d][vo/gpu/libplacebo] [ 25] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   1.066][d][vo/gpu/libplacebo] [ 26] // merging plane 2 ... into 1
+[   1.066][d][vo/gpu/libplacebo] [ 27] color.g = 1.000000 * vec4(texture(texture1, texcoord1)).r;
+[   1.066][d][vo/gpu/libplacebo] [ 28] out_color = color;
+[   1.066][d][vo/gpu/libplacebo] [ 29] }
+[   1.125][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.125][v][vo/gpu/libplacebo] Spent 58.629 ms translating SPIR-V
+[   1.126][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.126][d][vo/gpu/libplacebo] Spent 1.153 ms translating SPIR-V
+[   1.126][d][vo/gpu/libplacebo] Spent 0.004 ms compiling shader
+[   1.126][d][vo/gpu/libplacebo] Spent 0.084 ms creating pipeline
+[   1.126][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.126][d][vo/gpu/libplacebo] Allocating 258048 memory of type 0x7 (id 4) in heap 0: ../src/gpu/utils.c:1173
+[   1.126][d][vo/gpu/libplacebo] Spent 0.143 ms allocating slab
+[   1.126][d][vo/gpu/libplacebo] Allocating 262144 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.126][d][vo/gpu/libplacebo] Spent 0.100 ms allocating slab
+[   1.126][d][vo/gpu/libplacebo] Allocating 258048 memory of type 0x7 (id 4) in heap 0: ../src/gpu/utils.c:575
+[   1.126][d][vo/gpu/libplacebo] Spent 0.080 ms allocating slab
+[   1.126][d][vo/gpu] Resizing texture: 960x802
+[   1.126][d][vo/gpu/libplacebo] Allocating 6881280 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.126][d][vo/gpu/libplacebo] Spent 0.041 ms allocating slab
+[   1.126][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.126][d][vo/gpu/libplacebo] vertex shader source:
+[   1.126][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.126][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.126][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.126][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.126][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.126][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.126][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.126][d][vo/gpu/libplacebo] [  8] void main() {
+[   1.126][d][vo/gpu/libplacebo] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.126][d][vo/gpu/libplacebo] [ 10] texcoord0 = vertex_texcoord0;
+[   1.126][d][vo/gpu/libplacebo] [ 11] }
+[   1.126][d][vo/gpu/libplacebo] fragment shader source:
+[   1.126][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.126][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.126][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.126][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.126][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.126][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.126][d][vo/gpu/libplacebo] [  7] layout(std140, binding=2) uniform UBO {
+[   1.126][d][vo/gpu/libplacebo] [  8] layout(offset=0) mat2 texture_rot0;
+[   1.126][d][vo/gpu/libplacebo] [  9] };
+[   1.126][d][vo/gpu/libplacebo] [ 10] layout(std430, push_constant) uniform PushC {
+[   1.126][d][vo/gpu/libplacebo] [ 11] layout(offset=0) vec2 texture_size0;
+[   1.126][d][vo/gpu/libplacebo] [ 12] layout(offset=8) vec2 texture_off0;
+[   1.126][d][vo/gpu/libplacebo] [ 13] layout(offset=16) vec2 pixel_size0;
+[   1.126][d][vo/gpu/libplacebo] [ 14] };
+[   1.126][d][vo/gpu/libplacebo] [ 15] layout(binding=0) uniform sampler2D lut;
+[   1.126][d][vo/gpu/libplacebo] [ 16] layout(binding=1) uniform sampler2D texture0;
+[   1.126][d][vo/gpu/libplacebo] [ 17] void main() {
+[   1.126][d][vo/gpu/libplacebo] [ 18] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.126][d][vo/gpu/libplacebo] [ 19] // upscaling plane 1
+[   1.126][d][vo/gpu/libplacebo] [ 20] #undef tex
+[   1.126][d][vo/gpu/libplacebo] [ 21] #undef texmap
+[   1.126][d][vo/gpu/libplacebo] [ 22] #define tex texture0
+[   1.126][d][vo/gpu/libplacebo] [ 23] #define texmap texmap0
+[   1.126][d][vo/gpu/libplacebo] [ 24] vec2 pos = texcoord0;
+[   1.126][d][vo/gpu/libplacebo] [ 25] vec2 size = texture_size0;
+[   1.126][d][vo/gpu/libplacebo] [ 26] vec2 pt = pixel_size0;
+[   1.126][d][vo/gpu/libplacebo] [ 27] // first pass
+[   1.126][d][vo/gpu/libplacebo] [ 28] color = vec4(0.0);
+[   1.126][d][vo/gpu/libplacebo] [ 29] {
+[   1.126][d][vo/gpu/libplacebo] [ 30] vec2 dir = vec2(0.0, 1.0);
+[   1.126][d][vo/gpu/libplacebo] [ 31] pt *= dir;
+[   1.126][d][vo/gpu/libplacebo] [ 32] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   1.126][d][vo/gpu/libplacebo] [ 33] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   1.126][d][vo/gpu/libplacebo] [ 34] vec4 c;
+[   1.126][d][vo/gpu/libplacebo] [ 35] float ypos = LUT_POS(fcoord, 256.0);
+[   1.126][d][vo/gpu/libplacebo] [ 36] float weights[6];
+[   1.126][d][vo/gpu/libplacebo] [ 37] c = texture(lut, vec2(0.250000, ypos));
+[   1.126][d][vo/gpu/libplacebo] [ 38] weights[0] = c[0];
+[   1.126][d][vo/gpu/libplacebo] [ 39] weights[1] = c[1];
+[   1.126][d][vo/gpu/libplacebo] [ 40] weights[2] = c[2];
+[   1.126][d][vo/gpu/libplacebo] [ 41] weights[3] = c[3];
+[   1.126][d][vo/gpu/libplacebo] [ 42] c = texture(lut, vec2(0.750000, ypos));
+[   1.126][d][vo/gpu/libplacebo] [ 43] weights[4] = c[0];
+[   1.126][d][vo/gpu/libplacebo] [ 44] weights[5] = c[1];
+[   1.126][d][vo/gpu/libplacebo] [ 45] // scaler samples
+[   1.126][d][vo/gpu/libplacebo] [ 46] c = texture(tex, base + pt * vec2(0.0));
+[   1.126][d][vo/gpu/libplacebo] [ 47] color += vec4(weights[0]) * c;
+[   1.126][d][vo/gpu/libplacebo] [ 48] c = texture(tex, base + pt * vec2(1.0));
+[   1.126][d][vo/gpu/libplacebo] [ 49] color += vec4(weights[1]) * c;
+[   1.126][d][vo/gpu/libplacebo] [ 50] c = texture(tex, base + pt * vec2(2.0));
+[   1.126][d][vo/gpu/libplacebo] [ 51] color += vec4(weights[2]) * c;
+[   1.126][d][vo/gpu/libplacebo] [ 52] c = texture(tex, base + pt * vec2(3.0));
+[   1.126][d][vo/gpu/libplacebo] [ 53] color += vec4(weights[3]) * c;
+[   1.126][d][vo/gpu/libplacebo] [ 54] c = texture(tex, base + pt * vec2(4.0));
+[   1.126][d][vo/gpu/libplacebo] [ 55] color += vec4(weights[4]) * c;
+[   1.126][d][vo/gpu/libplacebo] [ 56] c = texture(tex, base + pt * vec2(5.0));
+[   1.126][d][vo/gpu/libplacebo] [ 57] color += vec4(weights[5]) * c;
+[   1.126][d][vo/gpu/libplacebo] [ 58] }
+[   1.126][d][vo/gpu/libplacebo] [ 59] color *= 1.000000;
+[   1.126][d][vo/gpu/libplacebo] [ 60] out_color = color;
+[   1.126][d][vo/gpu/libplacebo] [ 61] }
+[   1.127][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.127][d][vo/gpu/libplacebo] Spent 0.736 ms translating SPIR-V
+[   1.129][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.129][d][vo/gpu/libplacebo] Spent 1.870 ms translating SPIR-V
+[   1.129][d][vo/gpu/libplacebo] Spent 0.005 ms compiling shader
+[   1.129][d][vo/gpu/libplacebo] Spent 0.055 ms creating pipeline
+[   1.129][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.129][d][vo/gpu] Resizing texture: 1920x802
+[   1.129][d][vo/gpu/libplacebo] Allocating 13762560 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.129][d][vo/gpu/libplacebo] Spent 0.053 ms allocating slab
+[   1.129][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.129][d][vo/gpu/libplacebo] vertex shader source:
+[   1.129][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.129][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.129][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.129][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.129][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.129][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.129][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.129][d][vo/gpu/libplacebo] [  8] void main() {
+[   1.129][d][vo/gpu/libplacebo] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.129][d][vo/gpu/libplacebo] [ 10] texcoord0 = vertex_texcoord0;
+[   1.129][d][vo/gpu/libplacebo] [ 11] }
+[   1.129][d][vo/gpu/libplacebo] fragment shader source:
+[   1.129][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.129][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.129][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.129][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.129][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.129][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.129][d][vo/gpu/libplacebo] [  7] layout(std140, binding=2) uniform UBO {
+[   1.129][d][vo/gpu/libplacebo] [  8] layout(offset=0) mat2 texture_rot0;
+[   1.129][d][vo/gpu/libplacebo] [  9] };
+[   1.129][d][vo/gpu/libplacebo] [ 10] layout(std430, push_constant) uniform PushC {
+[   1.129][d][vo/gpu/libplacebo] [ 11] layout(offset=0) vec2 texture_size0;
+[   1.129][d][vo/gpu/libplacebo] [ 12] layout(offset=8) vec2 texture_off0;
+[   1.129][d][vo/gpu/libplacebo] [ 13] layout(offset=16) vec2 pixel_size0;
+[   1.129][d][vo/gpu/libplacebo] [ 14] };
+[   1.129][d][vo/gpu/libplacebo] [ 15] layout(binding=0) uniform sampler2D lut;
+[   1.129][d][vo/gpu/libplacebo] [ 16] layout(binding=1) uniform sampler2D texture0;
+[   1.129][d][vo/gpu/libplacebo] [ 17] void main() {
+[   1.129][d][vo/gpu/libplacebo] [ 18] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.129][d][vo/gpu/libplacebo] [ 19] #undef tex
+[   1.129][d][vo/gpu/libplacebo] [ 20] #undef texmap
+[   1.129][d][vo/gpu/libplacebo] [ 21] #define tex texture0
+[   1.129][d][vo/gpu/libplacebo] [ 22] #define texmap texmap0
+[   1.129][d][vo/gpu/libplacebo] [ 23] vec2 pos = texcoord0;
+[   1.129][d][vo/gpu/libplacebo] [ 24] vec2 size = texture_size0;
+[   1.129][d][vo/gpu/libplacebo] [ 25] vec2 pt = pixel_size0;
+[   1.129][d][vo/gpu/libplacebo] [ 26] color = vec4(0.0);
+[   1.129][d][vo/gpu/libplacebo] [ 27] {
+[   1.129][d][vo/gpu/libplacebo] [ 28] vec2 dir = vec2(1.0, 0.0);
+[   1.129][d][vo/gpu/libplacebo] [ 29] pt *= dir;
+[   1.129][d][vo/gpu/libplacebo] [ 30] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   1.129][d][vo/gpu/libplacebo] [ 31] vec2 base = pos - fcoord * pt - pt * vec2(2.0);
+[   1.129][d][vo/gpu/libplacebo] [ 32] vec4 c;
+[   1.129][d][vo/gpu/libplacebo] [ 33] float ypos = LUT_POS(fcoord, 256.0);
+[   1.129][d][vo/gpu/libplacebo] [ 34] float weights[6];
+[   1.129][d][vo/gpu/libplacebo] [ 35] c = texture(lut, vec2(0.250000, ypos));
+[   1.129][d][vo/gpu/libplacebo] [ 36] weights[0] = c[0];
+[   1.129][d][vo/gpu/libplacebo] [ 37] weights[1] = c[1];
+[   1.129][d][vo/gpu/libplacebo] [ 38] weights[2] = c[2];
+[   1.129][d][vo/gpu/libplacebo] [ 39] weights[3] = c[3];
+[   1.129][d][vo/gpu/libplacebo] [ 40] c = texture(lut, vec2(0.750000, ypos));
+[   1.129][d][vo/gpu/libplacebo] [ 41] weights[4] = c[0];
+[   1.129][d][vo/gpu/libplacebo] [ 42] weights[5] = c[1];
+[   1.129][d][vo/gpu/libplacebo] [ 43] // scaler samples
+[   1.129][d][vo/gpu/libplacebo] [ 44] c = texture(tex, base + pt * vec2(0.0));
+[   1.129][d][vo/gpu/libplacebo] [ 45] color += vec4(weights[0]) * c;
+[   1.129][d][vo/gpu/libplacebo] [ 46] c = texture(tex, base + pt * vec2(1.0));
+[   1.129][d][vo/gpu/libplacebo] [ 47] color += vec4(weights[1]) * c;
+[   1.129][d][vo/gpu/libplacebo] [ 48] c = texture(tex, base + pt * vec2(2.0));
+[   1.129][d][vo/gpu/libplacebo] [ 49] color += vec4(weights[2]) * c;
+[   1.129][d][vo/gpu/libplacebo] [ 50] c = texture(tex, base + pt * vec2(3.0));
+[   1.129][d][vo/gpu/libplacebo] [ 51] color += vec4(weights[3]) * c;
+[   1.129][d][vo/gpu/libplacebo] [ 52] c = texture(tex, base + pt * vec2(4.0));
+[   1.129][d][vo/gpu/libplacebo] [ 53] color += vec4(weights[4]) * c;
+[   1.129][d][vo/gpu/libplacebo] [ 54] c = texture(tex, base + pt * vec2(5.0));
+[   1.129][d][vo/gpu/libplacebo] [ 55] color += vec4(weights[5]) * c;
+[   1.129][d][vo/gpu/libplacebo] [ 56] }
+[   1.129][d][vo/gpu/libplacebo] [ 57] color.b = 0.000000;
+[   1.129][d][vo/gpu/libplacebo] [ 58] color.a = 1.000000;
+[   1.129][d][vo/gpu/libplacebo] [ 59] out_color = color;
+[   1.129][d][vo/gpu/libplacebo] [ 60] }
+[   1.130][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.130][d][vo/gpu/libplacebo] Spent 0.754 ms translating SPIR-V
+[   1.132][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.132][d][vo/gpu/libplacebo] Spent 1.841 ms translating SPIR-V
+[   1.132][d][vo/gpu/libplacebo] Spent 0.004 ms compiling shader
+[   1.132][d][vo/gpu/libplacebo] Spent 0.035 ms creating pipeline
+[   1.132][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.132][d][vo/gpu] Resizing texture: 1920x802
+[   1.132][d][vo/gpu/libplacebo] Allocating 13762560 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.132][d][vo/gpu/libplacebo] Spent 0.056 ms allocating slab
+[   1.132][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.132][d][vo/gpu/libplacebo] vertex shader source:
+[   1.132][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.132][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.132][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.132][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.132][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.132][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.132][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.132][d][vo/gpu/libplacebo] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   1.132][d][vo/gpu/libplacebo] [  9] layout(location=2) out vec2 texcoord1;
+[   1.132][d][vo/gpu/libplacebo] [ 10] void main() {
+[   1.132][d][vo/gpu/libplacebo] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.132][d][vo/gpu/libplacebo] [ 12] texcoord0 = vertex_texcoord0;
+[   1.132][d][vo/gpu/libplacebo] [ 13] texcoord1 = vertex_texcoord1;
+[   1.132][d][vo/gpu/libplacebo] [ 14] }
+[   1.132][d][vo/gpu/libplacebo] fragment shader source:
+[   1.132][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.132][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.132][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.132][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.132][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.132][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.132][d][vo/gpu/libplacebo] [  7] layout(location=2) in vec2 texcoord1;
+[   1.132][d][vo/gpu/libplacebo] [  8] layout(std140, binding=2) uniform UBO {
+[   1.132][d][vo/gpu/libplacebo] [  9] layout(offset=0) mat3 colormatrix;
+[   1.132][d][vo/gpu/libplacebo] [ 10] layout(offset=48) mat2 texture_rot0;
+[   1.132][d][vo/gpu/libplacebo] [ 11] layout(offset=80) mat2 texture_rot1;
+[   1.132][d][vo/gpu/libplacebo] [ 12] };
+[   1.132][d][vo/gpu/libplacebo] [ 13] layout(std430, push_constant) uniform PushC {
+[   1.132][d][vo/gpu/libplacebo] [ 14] layout(offset=0) vec3 colormatrix_c;
+[   1.132][d][vo/gpu/libplacebo] [ 15] layout(offset=16) vec2 texture_size0;
+[   1.132][d][vo/gpu/libplacebo] [ 16] layout(offset=24) vec2 texture_off0;
+[   1.132][d][vo/gpu/libplacebo] [ 17] layout(offset=32) vec2 pixel_size0;
+[   1.132][d][vo/gpu/libplacebo] [ 18] layout(offset=40) vec2 texture_size1;
+[   1.132][d][vo/gpu/libplacebo] [ 19] layout(offset=48) vec2 texture_off1;
+[   1.132][d][vo/gpu/libplacebo] [ 20] layout(offset=56) vec2 pixel_size1;
+[   1.132][d][vo/gpu/libplacebo] [ 21] };
+[   1.132][d][vo/gpu/libplacebo] [ 22] layout(binding=0) uniform sampler2D texture0;
+[   1.132][d][vo/gpu/libplacebo] [ 23] layout(binding=1) uniform sampler2D texture1;
+[   1.132][d][vo/gpu/libplacebo] [ 24] void main() {
+[   1.132][d][vo/gpu/libplacebo] [ 25] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.132][d][vo/gpu/libplacebo] [ 26] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   1.132][d][vo/gpu/libplacebo] [ 27] color.gb = 1.000000 * vec4(texture(texture1, texcoord1)).rg;
+[   1.132][d][vo/gpu/libplacebo] [ 28] color = color.rgbr;
+[   1.132][d][vo/gpu/libplacebo] [ 29] color.rgb = mat3(colormatrix) * color.rgb + colormatrix_c;
+[   1.132][d][vo/gpu/libplacebo] [ 30] color.a = 1.0;
+[   1.132][d][vo/gpu/libplacebo] [ 31] // scaler pre-conversion
+[   1.132][d][vo/gpu/libplacebo] [ 32] // linearize
+[   1.132][d][vo/gpu/libplacebo] [ 33] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   1.132][d][vo/gpu/libplacebo] [ 34] color.rgb = pow(color.rgb, vec3(2.4));
+[   1.132][d][vo/gpu/libplacebo] [ 35] color.rgb *= vec3(1.0/1.000000);
+[   1.132][d][vo/gpu/libplacebo] [ 36] // main scaling
+[   1.132][d][vo/gpu/libplacebo] [ 37] out_color = color;
+[   1.132][d][vo/gpu/libplacebo] [ 38] }
+[   1.133][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.133][d][vo/gpu/libplacebo] Spent 0.788 ms translating SPIR-V
+[   1.134][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.134][d][vo/gpu/libplacebo] Spent 1.533 ms translating SPIR-V
+[   1.134][d][vo/gpu/libplacebo] Spent 0.005 ms compiling shader
+[   1.135][d][vo/gpu/libplacebo] Spent 0.039 ms creating pipeline
+[   1.135][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.135][d][vo/gpu] Resizing texture: 1920x718
+[   1.135][d][vo/gpu/libplacebo] Allocating 11796480 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.135][d][vo/gpu/libplacebo] Spent 0.043 ms allocating slab
+[   1.135][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.135][d][vo/gpu/libplacebo] vertex shader source:
+[   1.135][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.135][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.135][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.135][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.135][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.135][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.135][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.135][d][vo/gpu/libplacebo] [  8] void main() {
+[   1.135][d][vo/gpu/libplacebo] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.135][d][vo/gpu/libplacebo] [ 10] texcoord0 = vertex_texcoord0;
+[   1.135][d][vo/gpu/libplacebo] [ 11] }
+[   1.135][d][vo/gpu/libplacebo] fragment shader source:
+[   1.135][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.135][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.135][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.135][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.135][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.135][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.135][d][vo/gpu/libplacebo] [  7] layout(std140, binding=2) uniform UBO {
+[   1.135][d][vo/gpu/libplacebo] [  8] layout(offset=0) mat2 texture_rot0;
+[   1.135][d][vo/gpu/libplacebo] [  9] };
+[   1.135][d][vo/gpu/libplacebo] [ 10] layout(std430, push_constant) uniform PushC {
+[   1.135][d][vo/gpu/libplacebo] [ 11] layout(offset=0) vec2 texture_size0;
+[   1.135][d][vo/gpu/libplacebo] [ 12] layout(offset=8) vec2 texture_off0;
+[   1.135][d][vo/gpu/libplacebo] [ 13] layout(offset=16) vec2 pixel_size0;
+[   1.135][d][vo/gpu/libplacebo] [ 14] };
+[   1.135][d][vo/gpu/libplacebo] [ 15] layout(binding=0) uniform sampler2D lut;
+[   1.135][d][vo/gpu/libplacebo] [ 16] layout(binding=1) uniform sampler2D texture0;
+[   1.135][d][vo/gpu/libplacebo] [ 17] void main() {
+[   1.135][d][vo/gpu/libplacebo] [ 18] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.135][d][vo/gpu/libplacebo] [ 19] #undef tex
+[   1.135][d][vo/gpu/libplacebo] [ 20] #undef texmap
+[   1.135][d][vo/gpu/libplacebo] [ 21] #define tex texture0
+[   1.135][d][vo/gpu/libplacebo] [ 22] #define texmap texmap0
+[   1.135][d][vo/gpu/libplacebo] [ 23] vec2 pos = texcoord0;
+[   1.135][d][vo/gpu/libplacebo] [ 24] vec2 size = texture_size0;
+[   1.135][d][vo/gpu/libplacebo] [ 25] vec2 pt = pixel_size0;
+[   1.135][d][vo/gpu/libplacebo] [ 26] // first pass
+[   1.135][d][vo/gpu/libplacebo] [ 27] color = vec4(0.0);
+[   1.135][d][vo/gpu/libplacebo] [ 28] {
+[   1.135][d][vo/gpu/libplacebo] [ 29] vec2 dir = vec2(0.0, 1.0);
+[   1.135][d][vo/gpu/libplacebo] [ 30] pt *= dir;
+[   1.135][d][vo/gpu/libplacebo] [ 31] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   1.135][d][vo/gpu/libplacebo] [ 32] vec2 base = pos - fcoord * pt - pt * vec2(1.0);
+[   1.135][d][vo/gpu/libplacebo] [ 33] vec4 c;
+[   1.135][d][vo/gpu/libplacebo] [ 34] float ypos = LUT_POS(fcoord, 256.0);
+[   1.135][d][vo/gpu/libplacebo] [ 35] float weights[4];
+[   1.135][d][vo/gpu/libplacebo] [ 36] c = texture(lut, vec2(0.500000, ypos));
+[   1.135][d][vo/gpu/libplacebo] [ 37] weights[0] = c[0];
+[   1.135][d][vo/gpu/libplacebo] [ 38] weights[1] = c[1];
+[   1.135][d][vo/gpu/libplacebo] [ 39] weights[2] = c[2];
+[   1.135][d][vo/gpu/libplacebo] [ 40] weights[3] = c[3];
+[   1.135][d][vo/gpu/libplacebo] [ 41] // scaler samples
+[   1.135][d][vo/gpu/libplacebo] [ 42] c = texture(tex, base + pt * vec2(0.0));
+[   1.135][d][vo/gpu/libplacebo] [ 43] color += vec4(weights[0]) * c;
+[   1.135][d][vo/gpu/libplacebo] [ 44] c = texture(tex, base + pt * vec2(1.0));
+[   1.135][d][vo/gpu/libplacebo] [ 45] color += vec4(weights[1]) * c;
+[   1.135][d][vo/gpu/libplacebo] [ 46] c = texture(tex, base + pt * vec2(2.0));
+[   1.135][d][vo/gpu/libplacebo] [ 47] color += vec4(weights[2]) * c;
+[   1.135][d][vo/gpu/libplacebo] [ 48] c = texture(tex, base + pt * vec2(3.0));
+[   1.135][d][vo/gpu/libplacebo] [ 49] color += vec4(weights[3]) * c;
+[   1.135][d][vo/gpu/libplacebo] [ 50] }
+[   1.135][d][vo/gpu/libplacebo] [ 51] color *= 1.000000;
+[   1.135][d][vo/gpu/libplacebo] [ 52] out_color = color;
+[   1.135][d][vo/gpu/libplacebo] [ 53] }
+[   1.136][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.136][d][vo/gpu/libplacebo] Spent 0.741 ms translating SPIR-V
+[   1.137][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.138][d][vo/gpu/libplacebo] Spent 1.566 ms translating SPIR-V
+[   1.138][d][vo/gpu/libplacebo] Spent 0.004 ms compiling shader
+[   1.138][d][vo/gpu/libplacebo] Spent 0.035 ms creating pipeline
+[   1.138][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.138][d][vo/gpu] Resizing texture: 1720x718
+[   1.138][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.138][d][vo/gpu/libplacebo] Spent 0.052 ms allocating slab
+[   1.138][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.138][d][vo/gpu/libplacebo] vertex shader source:
+[   1.138][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.138][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.138][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.138][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.138][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.138][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.138][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.138][d][vo/gpu/libplacebo] [  8] void main() {
+[   1.138][d][vo/gpu/libplacebo] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.138][d][vo/gpu/libplacebo] [ 10] texcoord0 = vertex_texcoord0;
+[   1.138][d][vo/gpu/libplacebo] [ 11] }
+[   1.138][d][vo/gpu/libplacebo] fragment shader source:
+[   1.138][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.138][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.138][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.138][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.138][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.138][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.138][d][vo/gpu/libplacebo] [  7] layout(std140, binding=2) uniform UBO {
+[   1.138][d][vo/gpu/libplacebo] [  8] layout(offset=0) mat2 texture_rot0;
+[   1.138][d][vo/gpu/libplacebo] [  9] };
+[   1.138][d][vo/gpu/libplacebo] [ 10] layout(std430, push_constant) uniform PushC {
+[   1.138][d][vo/gpu/libplacebo] [ 11] layout(offset=0) vec2 texture_size0;
+[   1.138][d][vo/gpu/libplacebo] [ 12] layout(offset=8) vec2 texture_off0;
+[   1.138][d][vo/gpu/libplacebo] [ 13] layout(offset=16) vec2 pixel_size0;
+[   1.138][d][vo/gpu/libplacebo] [ 14] };
+[   1.138][d][vo/gpu/libplacebo] [ 15] layout(binding=0) uniform sampler2D lut;
+[   1.138][d][vo/gpu/libplacebo] [ 16] layout(binding=1) uniform sampler2D texture0;
+[   1.138][d][vo/gpu/libplacebo] [ 17] void main() {
+[   1.138][d][vo/gpu/libplacebo] [ 18] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.138][d][vo/gpu/libplacebo] [ 19] #undef tex
+[   1.138][d][vo/gpu/libplacebo] [ 20] #undef texmap
+[   1.138][d][vo/gpu/libplacebo] [ 21] #define tex texture0
+[   1.138][d][vo/gpu/libplacebo] [ 22] #define texmap texmap0
+[   1.138][d][vo/gpu/libplacebo] [ 23] vec2 pos = texcoord0;
+[   1.138][d][vo/gpu/libplacebo] [ 24] vec2 size = texture_size0;
+[   1.138][d][vo/gpu/libplacebo] [ 25] vec2 pt = pixel_size0;
+[   1.138][d][vo/gpu/libplacebo] [ 26] color = vec4(0.0);
+[   1.138][d][vo/gpu/libplacebo] [ 27] {
+[   1.138][d][vo/gpu/libplacebo] [ 28] vec2 dir = vec2(1.0, 0.0);
+[   1.138][d][vo/gpu/libplacebo] [ 29] pt *= dir;
+[   1.138][d][vo/gpu/libplacebo] [ 30] float fcoord = dot(fract(pos * size - vec2(0.5)), dir);
+[   1.138][d][vo/gpu/libplacebo] [ 31] vec2 base = pos - fcoord * pt - pt * vec2(1.0);
+[   1.138][d][vo/gpu/libplacebo] [ 32] vec4 c;
+[   1.138][d][vo/gpu/libplacebo] [ 33] float ypos = LUT_POS(fcoord, 256.0);
+[   1.138][d][vo/gpu/libplacebo] [ 34] float weights[4];
+[   1.138][d][vo/gpu/libplacebo] [ 35] c = texture(lut, vec2(0.500000, ypos));
+[   1.138][d][vo/gpu/libplacebo] [ 36] weights[0] = c[0];
+[   1.138][d][vo/gpu/libplacebo] [ 37] weights[1] = c[1];
+[   1.138][d][vo/gpu/libplacebo] [ 38] weights[2] = c[2];
+[   1.138][d][vo/gpu/libplacebo] [ 39] weights[3] = c[3];
+[   1.138][d][vo/gpu/libplacebo] [ 40] // scaler samples
+[   1.138][d][vo/gpu/libplacebo] [ 41] c = texture(tex, base + pt * vec2(0.0));
+[   1.138][d][vo/gpu/libplacebo] [ 42] color += vec4(weights[0]) * c;
+[   1.138][d][vo/gpu/libplacebo] [ 43] c = texture(tex, base + pt * vec2(1.0));
+[   1.138][d][vo/gpu/libplacebo] [ 44] color += vec4(weights[1]) * c;
+[   1.138][d][vo/gpu/libplacebo] [ 45] c = texture(tex, base + pt * vec2(2.0));
+[   1.138][d][vo/gpu/libplacebo] [ 46] color += vec4(weights[2]) * c;
+[   1.138][d][vo/gpu/libplacebo] [ 47] c = texture(tex, base + pt * vec2(3.0));
+[   1.138][d][vo/gpu/libplacebo] [ 48] color += vec4(weights[3]) * c;
+[   1.138][d][vo/gpu/libplacebo] [ 49] }
+[   1.138][d][vo/gpu/libplacebo] [ 50] color.a = 1.000000;
+[   1.138][d][vo/gpu/libplacebo] [ 51] // scaler post-conversion
+[   1.138][d][vo/gpu/libplacebo] [ 52] out_color = color;
+[   1.138][d][vo/gpu/libplacebo] [ 53] }
+[   1.139][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.139][d][vo/gpu/libplacebo] Spent 0.760 ms translating SPIR-V
+[   1.140][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.140][d][vo/gpu/libplacebo] Spent 1.578 ms translating SPIR-V
+[   1.140][d][vo/gpu/libplacebo] Spent 0.004 ms compiling shader
+[   1.140][d][vo/gpu/libplacebo] Spent 0.034 ms creating pipeline
+[   1.140][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.141][d][vo/gpu] Resizing texture: 1720x718
+[   1.141][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.141][d][vo/gpu/libplacebo] Spent 0.056 ms allocating slab
+[   1.141][v][vo/gpu] Dither to 8.
+[   1.155][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   1.155][d][vo/gpu/libplacebo] vertex shader source:
+[   1.155][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.155][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.155][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.155][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.155][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   1.155][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   1.155][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   1.155][d][vo/gpu/libplacebo] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   1.155][d][vo/gpu/libplacebo] [  9] layout(location=2) out vec2 texcoord1;
+[   1.155][d][vo/gpu/libplacebo] [ 10] void main() {
+[   1.155][d][vo/gpu/libplacebo] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   1.155][d][vo/gpu/libplacebo] [ 12] texcoord0 = vertex_texcoord0;
+[   1.155][d][vo/gpu/libplacebo] [ 13] texcoord1 = vertex_texcoord1;
+[   1.155][d][vo/gpu/libplacebo] [ 14] }
+[   1.155][d][vo/gpu/libplacebo] fragment shader source:
+[   1.155][d][vo/gpu/libplacebo] [  1] #version 450
+[   1.155][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   1.155][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   1.155][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   1.155][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   1.155][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   1.155][d][vo/gpu/libplacebo] [  7] layout(location=2) in vec2 texcoord1;
+[   1.155][d][vo/gpu/libplacebo] [  8] layout(std140, binding=3) uniform UBO {
+[   1.155][d][vo/gpu/libplacebo] [  9] layout(offset=0) mat2 texture_rot0;
+[   1.155][d][vo/gpu/libplacebo] [ 10] layout(offset=32) mat2 texture_rot1;
+[   1.155][d][vo/gpu/libplacebo] [ 11] };
+[   1.155][d][vo/gpu/libplacebo] [ 12] layout(std430, push_constant) uniform PushC {
+[   1.155][d][vo/gpu/libplacebo] [ 13] layout(offset=0) float inter_coeff;
+[   1.155][d][vo/gpu/libplacebo] [ 14] layout(offset=16) vec3 src_luma;
+[   1.155][d][vo/gpu/libplacebo] [ 15] layout(offset=32) vec3 dst_luma;
+[   1.155][d][vo/gpu/libplacebo] [ 16] layout(offset=48) vec2 texture_size0;
+[   1.155][d][vo/gpu/libplacebo] [ 17] layout(offset=56) vec2 texture_off0;
+[   1.155][d][vo/gpu/libplacebo] [ 18] layout(offset=64) vec2 pixel_size0;
+[   1.155][d][vo/gpu/libplacebo] [ 19] layout(offset=72) vec2 texture_size1;
+[   1.155][d][vo/gpu/libplacebo] [ 20] layout(offset=80) vec2 texture_off1;
+[   1.155][d][vo/gpu/libplacebo] [ 21] layout(offset=88) vec2 pixel_size1;
+[   1.155][d][vo/gpu/libplacebo] [ 22] };
+[   1.155][d][vo/gpu/libplacebo] [ 23] layout(binding=0) uniform sampler2D dither;
+[   1.155][d][vo/gpu/libplacebo] [ 24] layout(binding=1) uniform sampler2D texture0;
+[   1.155][d][vo/gpu/libplacebo] [ 25] layout(binding=2) uniform sampler2D texture1;
+[   1.155][d][vo/gpu/libplacebo] [ 26] void main() {
+[   1.155][d][vo/gpu/libplacebo] [ 27] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   1.155][d][vo/gpu/libplacebo] [ 28] color = mix(texture(texture0, texcoord0), texture(texture1, texcoord1), inter_coeff);
+[   1.155][d][vo/gpu/libplacebo] [ 29] // color mapping
+[   1.155][d][vo/gpu/libplacebo] [ 30] color.rgb *= vec3(1.000000);
+[   1.155][d][vo/gpu/libplacebo] [ 31] color.rgb *= vec3(1.000000);
+[   1.155][d][vo/gpu/libplacebo] [ 32] // delinearize
+[   1.155][d][vo/gpu/libplacebo] [ 33] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   1.155][d][vo/gpu/libplacebo] [ 34] color.rgb *= vec3(1.000000);
+[   1.155][d][vo/gpu/libplacebo] [ 35] color.rgb = pow(color.rgb, vec3(1.0/2.4));
+[   1.155][d][vo/gpu/libplacebo] [ 36] // dithering
+[   1.155][d][vo/gpu/libplacebo] [ 37] vec2 dither_coord = vec2(gl_FragCoord.x, 0.0 + 1.000000 * gl_FragCoord.y);vec2 dither_pos = dither_coord * 1.0/64.0;
+[   1.155][d][vo/gpu/libplacebo] [ 38] float dither_value = texture(dither, dither_pos).r;
+[   1.155][d][vo/gpu/libplacebo] [ 39] color = floor(color * 255.0 + dither_value + 0.5 / 4096.0) * 1.0/255.0;
+[   1.155][d][vo/gpu/libplacebo] [ 40] out_color = color;
+[   1.155][d][vo/gpu/libplacebo] [ 41] }
+[   1.156][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.156][d][vo/gpu/libplacebo] Spent 0.755 ms translating SPIR-V
+[   1.157][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   1.157][d][vo/gpu/libplacebo] Spent 1.676 ms translating SPIR-V
+[   1.157][d][vo/gpu/libplacebo] Spent 0.005 ms compiling shader
+[   1.158][d][vo/gpu/libplacebo] Spent 0.129 ms creating pipeline
+[   1.158][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   1.158][v][cplayer] first video frame after restart shown
+[   1.166][d][osc] osc_init
+[   1.166][v][cplayer] audio ready
+[   1.166][d][cplayer] starting video playback
+[   1.166][v][cplayer] delaying audio start 20.521646 vs. 20.520500, diff=0.001146
+[   1.166][v][cplayer] playback restart complete @ 20.520500, audio=ready, video=playing
+[   1.166][v][vo/gpu/x11] Disabling screensaver.
+[   1.167][d][vd] Allocating new (host-cached) DR image...
+[   1.167][v][cplayer] starting audio playback
+[   1.167][v][ao/pulse] starting AO
+[   1.167][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   1.168][d][vo/gpu] Resizing texture: 1720x718
+[   1.168][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.168][d][vo/gpu/libplacebo] Spent 0.065 ms allocating slab
+[   1.169][d][vo/gpu] Resizing texture: 1720x718
+[   1.169][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.169][d][vo/gpu/libplacebo] Spent 0.050 ms allocating slab
+[   1.201][v][cplayer] Change display sync audio drift: -1
+[   1.208][d][vo/gpu] Resizing texture: 1720x718
+[   1.208][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.208][d][vo/gpu/libplacebo] Spent 0.062 ms allocating slab
+[   1.250][d][vo/gpu] Resizing texture: 1720x718
+[   1.250][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.250][d][vo/gpu/libplacebo] Spent 0.058 ms allocating slab
+[   1.317][d][vo/gpu/libplacebo] Garbage collected slab of size  256K from pool 0
+[   1.317][d][vo/gpu/libplacebo] Freeing slab of size  256K
+[   1.317][d][vo/gpu/libplacebo] Garbage collected slab of size  252K from pool 4
+[   1.317][d][vo/gpu/libplacebo] Freeing slab of size  252K
+[   1.365][v][cplayer] Change display sync audio drift: 0
+[   1.371][d][vo/gpu] Resizing texture: 1720x718
+[   1.371][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.371][d][vo/gpu/libplacebo] Spent 0.063 ms allocating slab
+[   1.456][d][vo/gpu] Resizing texture: 1720x718
+[   1.456][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.456][d][vo/gpu/libplacebo] Spent 0.080 ms allocating slab
+[   1.499][d][vo/gpu] Resizing texture: 1720x718
+[   1.499][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.499][d][vo/gpu/libplacebo] Spent 0.078 ms allocating slab
+[   1.535][v][cplayer] Change display sync audio drift: 1
+[   1.541][d][vo/gpu] Resizing texture: 1720x718
+[   1.541][d][vo/gpu/libplacebo] Allocating 10567680 memory of type 0x1 (id 1) in heap 0: unknown
+[   1.541][d][vo/gpu/libplacebo] Spent 0.077 ms allocating slab
+[   1.732][d][vd] Allocating new (host-cached) DR image...
+[   2.396][v][cplayer] Change display sync audio drift: -1
+[   2.432][v][cplayer] Change display sync audio drift: 0
+[   2.432][v][cplayer] Compensation factor: 0.972089
+[   2.493][v][cplayer] Change display sync audio drift: -1
+[   3.287][v][cplayer] Change display sync audio drift: 0
+[   3.287][v][cplayer] Compensation factor: 1.002150
+[   3.494][v][cplayer] Change display sync audio drift: 1
+[   4.228][v][cplayer] Change display sync audio drift: -1
+[   4.331][v][cplayer] Change display sync audio drift: 1
+[   4.398][v][cplayer] Change display sync audio drift: -1
+[   5.186][v][cplayer] Change display sync audio drift: 1
+[   5.325][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[   5.330][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   5.331][v][osd/libass] fontselect: (sans-serif, 400, 0) -> /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf, 0, NotoSans-Regular
+[   5.332][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   5.334][v][vo/gpu] Reallocating OSD texture to 2048x512.
+[   5.334][d][vo/gpu/libplacebo] Allocating 2580480 memory of type 0x7 (id 4) in heap 0: ../src/gpu/utils.c:575
+[   5.334][d][vo/gpu/libplacebo] Spent 0.256 ms allocating slab
+[   5.334][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   5.334][d][vo/gpu/libplacebo] vertex shader source:
+[   5.334][d][vo/gpu/libplacebo] [  1] #version 450
+[   5.334][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   5.334][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   5.334][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   5.334][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   5.334][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord;
+[   5.335][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord;
+[   5.335][d][vo/gpu/libplacebo] [  8] layout(location=2) in vec4 vertex_ass_color;
+[   5.335][d][vo/gpu/libplacebo] [  9] layout(location=2) out vec4 ass_color;
+[   5.335][d][vo/gpu/libplacebo] [ 10] void main() {
+[   5.335][d][vo/gpu/libplacebo] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   5.335][d][vo/gpu/libplacebo] [ 12] texcoord = vertex_texcoord;
+[   5.335][d][vo/gpu/libplacebo] [ 13] ass_color = vertex_ass_color;
+[   5.335][d][vo/gpu/libplacebo] [ 14] }
+[   5.335][d][vo/gpu/libplacebo] fragment shader source:
+[   5.335][d][vo/gpu/libplacebo] [  1] #version 450
+[   5.335][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   5.335][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   5.335][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   5.335][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   5.335][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord;
+[   5.335][d][vo/gpu/libplacebo] [  7] layout(location=2) in vec4 ass_color;
+[   5.335][d][vo/gpu/libplacebo] [  8] layout(std430, push_constant) uniform PushC {
+[   5.335][d][vo/gpu/libplacebo] [  9] layout(offset=0) vec3 src_luma;
+[   5.335][d][vo/gpu/libplacebo] [ 10] layout(offset=16) vec3 dst_luma;
+[   5.335][d][vo/gpu/libplacebo] [ 11] };
+[   5.335][d][vo/gpu/libplacebo] [ 12] layout(binding=0) uniform sampler2D osdtex;
+[   5.335][d][vo/gpu/libplacebo] [ 13] void main() {
+[   5.335][d][vo/gpu/libplacebo] [ 14] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   5.335][d][vo/gpu/libplacebo] [ 15] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   5.335][d][vo/gpu/libplacebo] [ 16] // color mapping
+[   5.335][d][vo/gpu/libplacebo] [ 17] color.rgb *= vec3(1.000000);
+[   5.335][d][vo/gpu/libplacebo] [ 18] color.rgb *= vec3(1.000000);
+[   5.335][d][vo/gpu/libplacebo] [ 19] out_color = color;
+[   5.335][d][vo/gpu/libplacebo] [ 20] }
+[   5.336][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   5.336][d][vo/gpu/libplacebo] Spent 1.033 ms translating SPIR-V
+[   5.337][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   5.337][d][vo/gpu/libplacebo] Spent 1.071 ms translating SPIR-V
+[   5.337][d][vo/gpu/libplacebo] Spent 0.004 ms compiling shader
+[   5.337][d][vo/gpu/libplacebo] Spent 0.068 ms creating pipeline
+[   5.337][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[   5.520][v][cplayer] Change display sync audio drift: -1
+[   5.629][v][cplayer] Change display sync audio drift: 1
+[   5.732][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[   5.946][v][cplayer] Change display sync audio drift: -1
+[   5.986][v][cplayer] Change display sync audio drift: 0
+[   5.986][v][cplayer] Compensation factor: 1.001621
+[   6.053][v][cplayer] Change display sync audio drift: 1
+[   6.164][v][cplayer] Change display sync audio drift: -1
+[   6.199][v][cplayer] Change display sync audio drift: 0
+[   6.199][v][cplayer] Compensation factor: 1.000644
+[   6.259][v][cplayer] Change display sync audio drift: 1
+[   6.320][v][cplayer] Change display sync audio drift: -1
+[   6.544][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   6.641][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[   6.641][d][cplayer] Run command: cycle, flags=64, args=[name="pause", value="1.000000"]
+[   6.641][v][cplayer] Set property: pause -> 1
+[   6.648][v][vo/gpu/x11] Enabling screensaver.
+[   6.650][d][global] user path: '/home/jakejoyner/.cache/mpv' -> '/home/jakejoyner/.cache/mpv'
+[   6.650][d][vo/gpu/libplacebo] vertex shader source:
+[   6.650][d][vo/gpu/libplacebo] [  1] #version 450
+[   6.650][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   6.650][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   6.650][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   6.650][d][vo/gpu/libplacebo] [  5] layout(location=0) in vec2 vertex_position;
+[   6.650][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   6.650][d][vo/gpu/libplacebo] [  7] layout(location=1) out vec2 texcoord0;
+[   6.650][d][vo/gpu/libplacebo] [  8] void main() {
+[   6.650][d][vo/gpu/libplacebo] [  9] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   6.650][d][vo/gpu/libplacebo] [ 10] texcoord0 = vertex_texcoord0;
+[   6.650][d][vo/gpu/libplacebo] [ 11] }
+[   6.650][d][vo/gpu/libplacebo] fragment shader source:
+[   6.650][d][vo/gpu/libplacebo] [  1] #version 450
+[   6.650][d][vo/gpu/libplacebo] [  2] #define tex1D texture
+[   6.650][d][vo/gpu/libplacebo] [  3] #define tex3D texture
+[   6.650][d][vo/gpu/libplacebo] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   6.650][d][vo/gpu/libplacebo] [  5] layout(location=0) out vec4 out_color;
+[   6.650][d][vo/gpu/libplacebo] [  6] layout(location=1) in vec2 texcoord0;
+[   6.650][d][vo/gpu/libplacebo] [  7] layout(std140, binding=2) uniform UBO {
+[   6.650][d][vo/gpu/libplacebo] [  8] layout(offset=0) mat2 texture_rot0;
+[   6.650][d][vo/gpu/libplacebo] [  9] };
+[   6.650][d][vo/gpu/libplacebo] [ 10] layout(std430, push_constant) uniform PushC {
+[   6.650][d][vo/gpu/libplacebo] [ 11] layout(offset=0) vec3 src_luma;
+[   6.650][d][vo/gpu/libplacebo] [ 12] layout(offset=16) vec3 dst_luma;
+[   6.650][d][vo/gpu/libplacebo] [ 13] layout(offset=32) vec2 texture_size0;
+[   6.651][d][vo/gpu/libplacebo] [ 14] layout(offset=40) vec2 texture_off0;
+[   6.651][d][vo/gpu/libplacebo] [ 15] layout(offset=48) vec2 pixel_size0;
+[   6.651][d][vo/gpu/libplacebo] [ 16] };
+[   6.651][d][vo/gpu/libplacebo] [ 17] layout(binding=0) uniform sampler2D dither;
+[   6.651][d][vo/gpu/libplacebo] [ 18] layout(binding=1) uniform sampler2D texture0;
+[   6.651][d][vo/gpu/libplacebo] [ 19] void main() {
+[   6.651][d][vo/gpu/libplacebo] [ 20] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   6.651][d][vo/gpu/libplacebo] [ 21] color.rgb = 1.000000 * vec4(texture(texture0, texcoord0)).rgb;
+[   6.651][d][vo/gpu/libplacebo] [ 22] // color mapping
+[   6.651][d][vo/gpu/libplacebo] [ 23] color.rgb *= vec3(1.000000);
+[   6.651][d][vo/gpu/libplacebo] [ 24] color.rgb *= vec3(1.000000);
+[   6.651][d][vo/gpu/libplacebo] [ 25] // delinearize
+[   6.651][d][vo/gpu/libplacebo] [ 26] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   6.651][d][vo/gpu/libplacebo] [ 27] color.rgb *= vec3(1.000000);
+[   6.651][d][vo/gpu/libplacebo] [ 28] color.rgb = pow(color.rgb, vec3(1.0/2.4));
+[   6.651][d][vo/gpu/libplacebo] [ 29] // dithering
+[   6.651][d][vo/gpu/libplacebo] [ 30] vec2 dither_coord = vec2(gl_FragCoord.x, 0.0 + 1.000000 * gl_FragCoord.y);vec2 dither_pos = dither_coord * 1.0/64.0;
+[   6.651][d][vo/gpu/libplacebo] [ 31] float dither_value = texture(dither, dither_pos).r;
+[   6.651][d][vo/gpu/libplacebo] [ 32] color = floor(color * 255.0 + dither_value + 0.5 / 4096.0) * 1.0/255.0;
+[   6.651][d][vo/gpu/libplacebo] [ 33] out_color = color;
+[   6.651][d][vo/gpu/libplacebo] [ 34] }
+[   6.652][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   6.652][d][vo/gpu/libplacebo] Spent 1.170 ms translating SPIR-V
+[   6.654][d][vo/gpu/libplacebo] shaderc compile status 'success' (0 errors, 0 warnings)
+[   6.654][d][vo/gpu/libplacebo] Spent 2.064 ms translating SPIR-V
+[   6.654][d][vo/gpu/libplacebo] Spent 0.012 ms compiling shader
+[   6.654][d][vo/gpu/libplacebo] Spent 0.105 ms creating pipeline
+[   6.654][d][vo/gpu/libplacebo] Pass statistics: size 0, SPIR-V: vert 0 frag 0 comp 0
+[  10.257][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[  10.475][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[  10.475][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  61.344][d][cplayer] Run command: quit, flags=73, args=[code="4"]
+[  61.344][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[  61.344][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[  61.344][i][cplayer] Saving state.
+[  61.345][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[  61.345][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[  61.345][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[  61.345][d][global] state path: 'watch_later' -> '/home/jakejoyner/.local/state/mpv/watch_later'
+[  61.345][v][cplayer] EOF code: 5  
+[  61.345][d][ad] Uninit decoder.
+[  61.345][d][vd] Uninit decoder.
+[  61.346][d][cplayer] Terminating demuxers...
+[  61.349][d][cplayer] Done terminating demuxers.
+[  61.349][v][cplayer] finished playback, success (reason 3)
+[  61.349][v][cplayer] Running hook: ytdl_hook/on_after_end_file
+[  61.349][d][cplayer] Run command: del, flags=64, args=[name="user-data/mpv/ytdl/json-subprocess-result"]
+[  61.349][d][osc] osc_init
+[  61.349][i][cplayer] Exiting... (Quit)
+[  61.350][d][select] Exiting...
+[  61.350][d][ytdl_hook] Exiting...
+[  61.350][d][console] Exiting...
+[  61.350][d][auto_profiles] Exiting...
+[  61.350][d][stats] Exiting...
+[  61.350][v][cplayer] Set property: user-data/osc/margins={"b":0,"t":0,"l":0,"r":0} -> 1
+[  61.351][d][cplayer] Run command: del, flags=64, args=[name="user-data/osc"]
+[  61.351][d][osc] Exiting...
+[  61.352][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size 3840K
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size 6720K
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   13M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   13M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   11M
+[  61.353][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.354][d][vo/gpu/libplacebo] Freeing slab of size   10M
+[  61.354][d][vo/gpu] flushing shader cache
+[  61.401][d][vo/gpu/libplacebo] Waiting for remaining commands...
+[  61.403][d][vo/gpu/libplacebo] Memory heaps supported by device:
+[  61.403][d][vo/gpu/libplacebo]     0: flags 0x1 size   11G
+[  61.403][d][vo/gpu/libplacebo]     1: flags 0x0 size   22G
+[  61.403][d][vo/gpu/libplacebo] Memory types supported by device:
+[  61.403][d][vo/gpu/libplacebo]     0: flags 0x0 heap 1
+[  61.403][d][vo/gpu/libplacebo]     1: flags 0x1 heap 0
+[  61.403][d][vo/gpu/libplacebo]     2: flags 0x6 heap 1
+[  61.403][d][vo/gpu/libplacebo]     3: flags 0xe heap 1
+[  61.403][d][vo/gpu/libplacebo]     4: flags 0x7 heap 0
+[  61.403][d][vo/gpu/libplacebo] Memory pool 0:
+[  61.403][d][vo/gpu/libplacebo]     Compatible types: 0x3
+[  61.403][d][vo/gpu/libplacebo]     Optimal flags: 0x1
+[  61.403][d][vo/gpu/libplacebo]     Slab  0:        f x 1680K:     0 used     0 res 6720K alloc from heap 0, efficiency 100.00%  [unknown]
+[  61.403][d][vo/gpu/libplacebo]     Slab  1:     ffff x   16K:     0 used     0 res  256K alloc from heap 0, efficiency 100.00%  [unknown]
+[  61.403][d][vo/gpu/libplacebo]     Pool summary:     0 used     0 res 6976K alloc, efficiency 100.00%, utilization 0.00%
+[  61.403][d][vo/gpu/libplacebo] Memory pool 1:
+[  61.403][d][vo/gpu/libplacebo]     Compatible types: 0xffffffff
+[  61.403][d][vo/gpu/libplacebo]     Required flags: 0x2
+[  61.403][d][vo/gpu/libplacebo]     Optimal flags: 0x8
+[  61.403][d][vo/gpu/libplacebo]     Buffer flags: 0x3
+[  61.403][d][vo/gpu/libplacebo]     Slab  0:        f x 2433K:     0 used     0 res 9732K alloc from heap 1, efficiency 100.00%  [unknown]
+[  61.403][d][vo/gpu/libplacebo]     Slab  1:       ff x 2433K:     0 used     0 res   19M alloc from heap 1, efficiency 100.00%  [unknown]
+[  61.403][d][vo/gpu/libplacebo]     Slab  2:     ffff x 2433K:     0 used     0 res   38M alloc from heap 1, efficiency 100.00%  [unknown]
+[  61.403][d][vo/gpu/libplacebo]     Pool summary:     0 used     0 res   66M alloc, efficiency 100.00%, utilization 0.00%
+[  61.403][d][vo/gpu/libplacebo] Memory pool 2:
+[  61.403][d][vo/gpu/libplacebo]     Compatible types: 0xffffffff
+[  61.403][d][vo/gpu/libplacebo]     Required flags: 0x1
+[  61.403][d][vo/gpu/libplacebo]     Optimal flags: 0x2
+[  61.403][d][vo/gpu/libplacebo]     Buffer flags: 0x13
+[  61.403][d][vo/gpu/libplacebo]     Slab  0: 3ffffffffff x  6144:     0 used     0 res  252K alloc from heap 0, efficiency 100.00%  [unknown]
+[  61.403][d][vo/gpu/libplacebo]     Pool summary:     0 used     0 res  252K alloc, efficiency 100.00%, utilization 0.00%
+[  61.403][d][vo/gpu/libplacebo] Memory pool 3:
+[  61.403][d][vo/gpu/libplacebo]     Compatible types: 0xffffffff
+[  61.403][d][vo/gpu/libplacebo]     Required flags: 0x1
+[  61.403][d][vo/gpu/libplacebo]     Optimal flags: 0x2
+[  61.403][d][vo/gpu/libplacebo]     Buffer flags: 0xc3
+[  61.403][d][vo/gpu/libplacebo]     Slab  0: 3ffffffffff x  6144:     0 used     0 res  252K alloc from heap 0, efficiency 100.00%  [../src/gpu/utils.c:1173]
+[  61.403][d][vo/gpu/libplacebo]     Pool summary:     0 used     0 res  252K alloc, efficiency 100.00%, utilization 0.00%
+[  61.403][d][vo/gpu/libplacebo] Memory pool 4:
+[  61.403][d][vo/gpu/libplacebo]     Compatible types: 0xffffffff
+[  61.403][d][vo/gpu/libplacebo]     Optimal flags: 0x3
+[  61.403][d][vo/gpu/libplacebo]     Buffer flags: 0x3
+[  61.403][d][vo/gpu/libplacebo]     Slab  0:        f x  630K:     0 used     0 res 2520K alloc from heap 0, efficiency 100.00%  [../src/gpu/utils.c:575]
+[  61.403][d][vo/gpu/libplacebo]     Pool summary:     0 used     0 res 2520K alloc, efficiency 100.00%, utilization 0.00%
+[  61.403][d][vo/gpu/libplacebo] Memory summary:     0 used     0 res   76M alloc, efficiency 100.00%, utilization 0.00%, max page:  767M
+[  61.403][d][vo/gpu/libplacebo] Freeing slab of size 6720K
+[  61.403][d][vo/gpu/libplacebo] Freeing slab of size  256K
+[  61.403][d][vo/gpu/libplacebo] Freeing slab of size 9732K
+[  61.405][d][vo/gpu/libplacebo] Freeing slab of size   19M
+[  61.406][d][vo/gpu/libplacebo] Freeing slab of size   38M
+[  61.409][d][vo/gpu/libplacebo] Freeing slab of size  252K
+[  61.409][d][vo/gpu/libplacebo] Freeing slab of size  252K
+[  61.409][d][vo/gpu/libplacebo] Freeing slab of size 2520K
+[  61.677][d][vo/gpu/x11] uninit ...

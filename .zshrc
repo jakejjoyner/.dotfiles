@@ -1,3 +1,5 @@
+alias spotify="spotify & disown"
+alias chrome="google-chrome & disown"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 alias vim="nvim"
@@ -110,3 +112,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+PKG_CONFIG_PATH=/home/linuxbrew/.linuxbrew/Cellar/zimg/3.0.5:$PKG_CONFIG_PATH
