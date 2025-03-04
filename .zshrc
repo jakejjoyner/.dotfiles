@@ -1,5 +1,5 @@
-alias spotify="spotify & disown"
-alias chrome="google-chrome & disown"
+alias spotify="i3-msg exec spotify && exit"
+alias chrome="i3-msg exec google-chrome && exit"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 alias vim="nvim"
