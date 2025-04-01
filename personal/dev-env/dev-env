@@ -60,5 +60,5 @@ copy_file .local/bin/.zshrc $HOME
 copy_file .local/bin/tmux.conf $HOME
 copy_file .local/bin/.xprofile $HOME
 
-copy_dir .local/scripts $HOME/.local/scripts
 copy_dir .config $HOME/.config
+copy_dir .local $HOME/.local
