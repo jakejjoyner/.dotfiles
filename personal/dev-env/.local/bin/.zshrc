@@ -123,4 +123,5 @@ export PATH="$PATH:$HOME/zig/zig-linux-x86_64-0.13.0"
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$HOME/.local/scripts
+export PATH=$PATH:$HOME/personal/dev-env
 bindkey '^H' backward-kill-word
