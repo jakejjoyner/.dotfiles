@@ -1,8 +1,0 @@
-XTerm*toolBar: false
-XTerm*faceName: Monospace
-XTerm*faceSize: 12
-XTerm*background: black
-XTerm*foreground: white
-Xcursor.size: 16
-XTerm*VT100.Translations: #override \n\
-    Ctrl <Key>V: insert-selection(PRIMARY)
