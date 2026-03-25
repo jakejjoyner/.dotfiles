@@ -40,7 +40,7 @@ autocmd('BufWritePre', {
 
 vim.cmd.colorscheme("rose-pine-moon")
 
-require('nvim-treesitter.configs').setup {
+require('nvim-treesitter.config').setup {
     indent = {
         enable = true,
         disable = { "markdown" }

@@ -56,9 +56,9 @@ copy_file() {
 
 execute source ~/.xprofile
 
-copy_file .local/bin/.zshrc $HOME
-copy_file .local/bin/tmux.conf $HOME
-copy_file .local/bin/.xprofile $HOME
+copy_file ~/.dotfiles/.zshrc $HOME
+copy_file ~/.dotfiles/.tmux.conf $HOME
 
-copy_dir .config $HOME/.config
-copy_dir .local $HOME/.local
+copy_dir ~/.dotfiles/.config/mpv $HOME/.config/mpv
+copy_dir ~/.dotfiles/.config/nvim $HOME/.config/nvim
+copy_dir ~/.dotfiles/mpv $HOME/mpv
