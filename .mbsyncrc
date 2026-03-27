@@ -1,0 +1,97 @@
+# ===== GMAIL =====
+IMAPAccount gmail
+Host imap.gmail.com
+User jakejoyner9@gmail.com
+PassCmd "mutt_oauth2.py ~/.mail/gmail.tokens"
+AuthMechs XOAUTH2
+TLSType IMAPS
+
+IMAPStore gmail-remote
+Account gmail
+
+MaildirStore gmail-local
+Path ~/.mail/gmail/
+Inbox ~/.mail/gmail/INBOX
+
+Channel gmail-inbox
+Far :gmail-remote:INBOX
+Near :gmail-local:INBOX
+Create Both
+Expunge Both
+SyncState *
+
+Channel gmail-sent
+Far :gmail-remote:"Sent Messages"
+Near :gmail-local:sent
+Create Both
+Expunge Both
+SyncState *
+
+# ===== School (Gmail) =====
+IMAPAccount school
+Host imap.gmail.com
+User jjoyner@ucsd.edu
+PassCmd "mutt_oauth2.py ~/.mail/school.tokens"
+AuthMechs XOAUTH2
+TLSType IMAPS
+
+IMAPStore school-remote
+Account school
+
+MaildirStore school-local
+Path ~/.mail/school/
+Inbox ~/.mail/school/INBOX
+
+Channel school-inbox
+Far :school-remote:INBOX
+Near :school-local:INBOX
+Create Both
+Expunge Both
+SyncState *
+
+Channel school-sent
+Far :school-remote:"[Gmail]/Sent Mail"
+Near :school-local:sent
+Create Both
+Expunge Both
+SyncState *
+
+# ===== ICLOUD =====
+IMAPAccount icloud
+Host imap.mail.me.com
+Port 993
+User jakejoyner9@icloud.com
+PassCmd "pass icloud"
+AuthMechs LOGIN
+TLSType IMAPS
+
+IMAPStore icloud-remote
+Account icloud
+
+MaildirStore icloud-local
+Path ~/.mail/icloud/
+Inbox ~/.mail/icloud/INBOX
+
+Channel icloud-inbox
+Far :icloud-remote:INBOX
+Near :icloud-local:INBOX
+Create Both
+Expunge Both
+SyncState *
+
+Channel icloud-sent
+Far :icloud-remote:"Sent Messages"
+Near :icloud-local:sent
+Create Both
+Expunge Both
+SyncState *
+
+# ===== UNIFIED GROUP =====
+# Syncs all inboxes in one shot: mbsync unified
+Group unified
+Channel gmail-inbox
+Channel gmail-sent
+Channel school-inbox
+Channel school-sent
+Channel icloud-inbox
+Channel icloud-sent

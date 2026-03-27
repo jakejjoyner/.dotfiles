@@ -1,0 +1,18 @@
+set folder = ~/.mail
+set spoolfile = ~/.mail/gmail/INBOX
+mailboxes ~/.mail/gmail/INBOX \
+          ~/.mail/gmail/sent \
+          ~/.mail/school/INBOX \
+          ~/.mail/school/sent \
+          ~/.mail/icloud/INBOX \
+          ~/.mail/icloud/sent
+
+# Sidebar
+set sidebar_visible = yes
+set sidebar_width = 25
+set sidebar_format = "%B%* %N"
+
+# Basic settings
+set mail_check = 60
+set timeout = 10
+set header_cache = ~/.cache/mutt/headers
