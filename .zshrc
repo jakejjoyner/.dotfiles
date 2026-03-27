@@ -26,7 +26,7 @@ export NVM_DIR="$HOME/.nvm"
 alias python="python3.12"
 
 alias kbinit="setxkbmap -layout real-prog-qwerty"
-export PATH=$PATH:$HOME/.dotfiles/personal/dev-env/.local/scripts/tmux-sessionizer
+export PATH=$PATH:$HOME/dev-env/.local/scripts
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$PATH:$HOME/zig/zig-linux-x86_64-0.13.0"
 export PATH=$PATH:/usr/local/go/bin
