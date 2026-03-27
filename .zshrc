@@ -2,14 +2,15 @@
 # render venv correctly
 plugins=(git virtualenv)
 unset VIRTUAL_ENV_DISABLE_PROMPT
-alias zoom="i3-msg exec zoom && exit"
-alias chrome="i3-msg exec google-chrome && exit"
 alias vim="nvim"
-alias i3config="vim ~/.config/i3/config"
-alias vimconfig="vim ~/.config/nvim"
+alias mail="neomutt"
 # some keybinds
 bindkey -v
 bindkey '\ef' forward-word
+
+# cursor
+echo -ne '\e[5 q'
+precmd() { echo -ne '\e[5 q' }
 
 #zsh
 export ZSH="$HOME/.oh-my-zsh"

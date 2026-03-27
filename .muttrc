@@ -16,3 +16,12 @@ set sidebar_format = "%B%* %N"
 set mail_check = 60
 set timeout = 10
 set header_cache = ~/.cache/mutt/headers
+# Bind G in the index to sync all accounts and reindex. Press G to fetch new mail.
+macro index G "<shell-escape>mbsync -a && notmuch new<enter>" "sync all mail"
+# Modified unified inbox
+virtual-mailboxes "Unified Inbox" "notmuch://?query=tag:inbox&type=messages"
+set virtual_spoolfile = yes
+set spoolfile = "notmuch://?query=tag:inbox&type=messages"
+# Threading
+set sort = threads
+set sort_aux = reverse-last-date-received # Sort threads by newest message first
