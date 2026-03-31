@@ -1,6 +1,8 @@
 package main
 
 import (
+	"math"
+	"strconv"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -137,7 +139,7 @@ func getIcon(condition string, code string) string {
 }
 
 func getWeather() (WaybarOutput, error) {
-	url := fmt.Sprintf("%s/?format=j1", WTTR_API_URL)
+	url := fmt.Sprintf("%s/La+Jolla?format=j1", WTTR_API_URL)
 
 	client := &http.Client{
 		Timeout: 10 * time.Second,
@@ -187,7 +189,8 @@ func getWeather() (WaybarOutput, error) {
 
 	weatherIcon := getIcon(weatherCondition, current.WeatherCode)
 
-	temperatureText := fmt.Sprintf("%s°C", current.TempC)
+	var currentTemp, _ = strconv.Atoi(current.TempC)
+	temperatureText := fmt.Sprintf("%.0f°F", math.Round(float64(currentTemp)*(9.0/5.0)+32))
 
 	outputText := fmt.Sprintf("%s %s", weatherIcon, temperatureText)
 
@@ -195,12 +198,15 @@ func getWeather() (WaybarOutput, error) {
 	fmt.Sscanf(current.WindspeedKmph, "%f", &windKmph)
 	windMs := windKmph / 3.6
 
+	feelsLike, _ := strconv.Atoi(current.FeelsLikeC)
+	feelsLikeF := math.Round(float64(feelsLike)*(9.0/5.0) + 32)
+
 	tooltip := fmt.Sprintf(
-		"%s\n%s\nTemperature: %s°C\nFeels like: %s°C\nHumidity: %s%%\nWind: %.1f m/s %s\nPrecipitation: %s mm\nUpdated: %s",
+		"%s\n%s\nTemperature: %s\nFeels like: %.0f°F\nHumidity: %s%%\nWind: %.1f m/s %s\nPrecipitation: %s mm\nUpdated: %s",
 		locationName,
 		weatherCondition,
-		current.TempC,
-		current.FeelsLikeC,
+		temperatureText,
+		feelsLikeF,
 		current.Humidity,
 		windMs,
 		current.WindDir16Point,

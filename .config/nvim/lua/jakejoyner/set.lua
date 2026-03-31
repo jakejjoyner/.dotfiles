@@ -1,5 +1,7 @@
 vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20"
 vim.g.have_nerd_font = true
+vim.opt.wildignore = ""
+vim.opt.textwidth = 72
 
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -19,7 +21,7 @@ vim.opt.backup = false
 vim.opt.undodir = vim.fn.stdpath("state") .. "/undodir"
 vim.opt.undofile = true
 
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true

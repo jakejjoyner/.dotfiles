@@ -3,7 +3,7 @@
 plugins=(git virtualenv)
 unset VIRTUAL_ENV_DISABLE_PROMPT
 alias vim="nvim"
-alias mail="neomutt"
+#alias mail="neomutt"
 # some keybinds
 bindkey -v
 bindkey '\ef' forward-word
@@ -24,7 +24,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # python version
-alias python="python3.12"
+alias python="python3.11"
 
 alias kbinit="setxkbmap -layout real-prog-qwerty"
 export PATH=$PATH:$HOME/dev-env/.local/scripts

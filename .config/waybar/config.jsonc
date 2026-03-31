@@ -1,9 +1,9 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces", "clock#time"],
 
-  "modules-center": ["clock", "custom/weather"],
+  "modules-center": ["clock#date", "custom/weather"],
 
   "modules-right": [
     "pulseaudio",
@@ -12,12 +12,16 @@
     "battery",
     "network",
     "cpu",
-    "memory",
-    "custom/docker",
-    "tray",
+    "custom/easyeffects",
     "custom/lock",
     "custom/power"
   ],
+
+  "custom/lock": {
+      "tooltip": false,
+      "on-click": "hyprlock > /dev/null 2>&1",
+      "format": "🔒"
+  },
 
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
@@ -28,6 +32,8 @@
   },
 
   "tray": {
+    "show-passive-items": true,
+    "tooltip": false,
     "icon-size": 16,
     "spacing": 10
   },
@@ -42,19 +48,26 @@
     "max-length": 50
   },
 
-  "clock": {
+  "clock#date": {
     "timezone": "America/Los_Angeles",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%d/%m/%Y - %H:%M:%S}",
+    "format": "{:%m/%d/%Y}",
+    "interval": 1
+  },
+
+  "clock#time": {
+    "timezone": "America/Los_Angeles",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "{:%I:%M %p}",
     "interval": 1
   },
 
   "network": {
-    "format-wifi": "󰤢 {bandwidthDownBits}",
-    "format-ethernet": "󰈀 {bandwidthDownBits}",
+    "format-wifi": "󰤢 {essid} {signalStrength}%",
+    "format-ethernet": "{󰈀 ifname}",
     "format-disconnected": "󰤠 No Network",
-    "interval": 5,
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "nm-connection-editor"
   },
 
   "cpu": {
@@ -64,17 +77,20 @@
   },
 
   "memory": {
+    "tooltip": false,
     "interval": 30,
     "format": "  {used:0.1f}G/{total:0.1f}G"
   },
 
   "custom/uptime": {
+    "tooltip": false,
     "format": "{}",
     "interval": 1600,
     "exec": "sh -c '(uptime -p)'"
   },
 
   "pulseaudio": {
+    "tooltip": false,
     "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
@@ -85,7 +101,7 @@
 
   "custom/power": {
     "tooltip": false,
-    "on-click": "wlogout &",
+    "on-click": "hyprctl dispatch dpms off > /dev/null 2>&1",
     "format": "⏻"
   },
 
@@ -95,6 +111,12 @@
     "interval": 10,
     "exec": "$XDG_CONFIG_HOME/waybar/scripts/docker-stats/docker-stats",
     "tooltip": true
+  },
+
+  "custom/easyeffects": {
+    "format": "<span baseline_shift='-15pt'>🎚</span>",
+    "on-click": "$XDG_CONFIG_HOME/waybar/scripts/toggle-easyeffects.sh",
+    "tooltip": false
   },
 
   "custom/weather": {
