@@ -7,6 +7,14 @@
   padding-bottom: 0px;
 }
 
+#custom-bluetooth {
+  font-size: 11;
+}
+
+#custom-bluetooth.off       { color: #555; }
+#custom-bluetooth.on        { color: #89b4fa; }
+#custom-bluetooth.connected { color: #a6e3a1; }
+
 #waybar {
   background: transparent;
   color: #c6d0f5;
@@ -41,19 +49,19 @@ button {
 }
 
 #custom-music,
+#custom-bluetooth,
 #tray,
 #backlight,
 #custom-easyeffects,
 #custom
 #clock,
-#battery,
+#custom-battery,
 #pulseaudio,
 #network,
 #cpu,
 #memory,
 #custom-lock,
 #custom-power,
-#custom-weather,
 #custom-uptime,
 #custom-docker {
   background-color: #101010;
@@ -64,23 +72,26 @@ button {
 #clock {
   color: #8caaee;
   border-radius: 5px;
+  background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
 }
 
 #custom-weather {
   color: #8caaee;
-  margin-left: 0.5rem;
+  margin-left: -0.8rem;
   border-radius: 5px;
+  background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
 }
 
-#battery {
-  color: #a6d189;
-}
+#custom-battery.critical { color: #ff5555; }
+#custom-battery.low      { color: #ffb86c; }
+#custom-battery.charging { color: #50fa7b; }
+#custom-battery.full     { color: #8be9fd; }
 
-#battery.charging {
-  color: #a6d189;
-}
-
-#battery.warning:not(.charging) {
+#custom-battery.warning:not(.charging) {
   color: #e78284;
 }
 
@@ -89,8 +100,11 @@ button {
 }
 
 #backlight,
-#battery {
+#custom-battery {
   border-radius: 0;
+  background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
 }
 
 #pulseaudio {
