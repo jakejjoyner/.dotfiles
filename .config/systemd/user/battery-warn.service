@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Warning
+
+[Service]
+Type=oneshot
+ExecStart=/home/jjoyner/.local/bin/battery-warn.sh
