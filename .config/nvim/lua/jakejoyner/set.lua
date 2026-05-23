@@ -1,7 +1,10 @@
 vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20"
 vim.g.have_nerd_font = true
 vim.opt.wildignore = ""
-vim.opt.textwidth = 72
+vim.opt.textwidth = 80
+vim.opt.mouse = ""
+vim.keymap.set({ "", "i" }, "<up>", "<nop>")
+vim.keymap.set({ "", "i" }, "<down>", "<nop>")
 
 vim.opt.number = true
 vim.opt.relativenumber = true
